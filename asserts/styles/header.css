@@ -1,0 +1,33 @@
+header{
+    position: relative;
+    display: inline-block;
+    width: 100vw;
+    background-color: rgb(14, 41, 69);
+    height: 60px;
+}
+header>section{
+    display: flex;
+}
+header>section>img{
+    width: 80px;
+    height: 50px;
+    top: 10px;
+    position: absolute;
+    left: 25px;
+}
+header>nav{
+    top: 10px;
+    position: absolute;
+    right: 20px;
+    height: fit-content;
+}
+header>nav>ul>li{
+    display: inline-block;
+    right: 0;
+    padding-left: 20px;
+}
+header>nav>ul>li>a{
+    text-decoration: none;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}

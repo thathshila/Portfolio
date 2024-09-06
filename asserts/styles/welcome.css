@@ -1,0 +1,100 @@
+#welcome{
+    display: flex;
+    position: relative;
+    background-color: black;
+    width: 100%;
+    height: 600px;
+}
+#welcome>section:first-child>h1{
+    display: flex;
+    position: absolute;
+    top: 10vh;
+    text-align: center;
+    align-items: center;
+    font-size: 50px;
+    color: #00ffff;
+    left: 10vw;
+}
+#welcome>section:first-child>h1 {
+    font-family: "Tilt Prism", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+            "XROT" 0,
+            "YROT" 0;
+}
+#welcome>section:first-child>h4{
+    display: flex;
+    position: absolute;
+    top: 30vh;
+    font-size: 40px;
+    color: white;
+    left: 15vw;
+}
+#welcome>section:first-child>h3{
+    display: flex;
+    position: absolute;
+    top: 50vh;
+    font-size: 20px;
+    color: white;
+    left: 15vw;
+}
+#welcome>section:first-child>span{
+    display: flex;
+    position: absolute;
+    top: 40vh;
+    font-size: 40px;
+    color: aqua;
+    left: 15vw;
+}
+#welcome>section:nth-child(2)>img{
+    width: 400px;
+    right: 30px;
+    top: 10px;
+    position: absolute;
+    border-radius: 40px;
+    border: 5px solid aqua;
+}
+#welcome>section:nth-child(3)>div{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 400px;
+    border-radius: 100%;
+    background-color: aqua;
+    /*box-shadow: 10px 5px 50px aqua;*/
+    left: 15vw;
+}
+#welcome>section:nth-child(3)>div:hover{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 400px;
+    border-radius: 100%;
+    background-color: aqua;
+    box-shadow: 10px 5px 50px aqua;
+    left: 15vw;
+}
+#welcome>section:nth-child(3)>div>img{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+#welcome>section:nth-child(3)>div:nth-child(2){
+    left: 20vw;
+}
+#welcome>section:nth-child(3)>div:nth-child(3){
+    left: 25vw;
+}
+#welcome>section:nth-child(3)>div:nth-child(4){
+    left: 30vw;
+}
+#welcome>section:nth-child(3)>div:nth-child(5){
+    left: 35vw;
+}

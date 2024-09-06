@@ -3,52 +3,94 @@
 <head>
     <meta charset="UTF-8">
     <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&family=Tilt+Prism&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./asserts/styles/normalize.css">
+    <link rel="stylesheet" href="./asserts/styles/body.css">
+    <link rel="stylesheet" href="./asserts/styles/header.css">
+    <link rel="stylesheet" href="./asserts/styles/footer.css">
+    <link rel="stylesheet" href="./asserts/styles/welcome.css">
 </head>
+<style>
+
+    *{
+         margin: 0;
+        padding: 0;
+    }
+    #about  {
+        background: #0e2945;
+    }
+
+</style>
+
 <body>
 <!--header section-->
 <header>
     <!--logo section-->
-        <img src="asserts/images/LOGO.png" title="logo" alt="logo">
+    <section>
+        <img src="asserts/images/my-logo.png" title="logo" alt="logo">
+    </section>
     <!-- nav section-->
     <nav>
         <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Skill</li>
-            <li>Gallery</li>
-            <li>Project</li>
-            <li>Assignment</li>
-            <li>Education</li>
-            <li>Contact</li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Skill</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Project</a></li>
+            <li><a href="#">Assignment</a></li>
+            <li><a href="#">Education</a></li>
+            <li><a href="#">Contact</a></li>
         </ul>
     </nav>
 </header>
      <!--hero section-->
-    <main>
+    <main id="welcome">
         <!--welcome section-->
         <section>
-            <h3>HELLO...!</h3>
-            <h4>I'M</h4>
-            <h4>Thathshila Ashanganie</h4>
-            <h4>Contact me...</h4>
+            <h1>HELLO...!</h1>
+            <h4>I'M   </h4>  <br>
+           <span> Thathshila Ashanganie </span>  <br>
+           <h3> Contact me... </h3>   <br>
+        </section>
+<!--        right-->
+        <section>
             <img src="asserts/images/homeImage.jpg" title="My-photo" alt="My-photo">
         </section>
-       <section>
-           <hr>
-           <img src="asserts/images/icons8-message-96.png" title="Message" alt="Message">
-           <img src="asserts/images/icons8-whatsapp-96.png" title="WhatsApp" alt="WhatsApp">
-           <img src="asserts/images/icons8-linkedin-logo-96.png" title="Linkedin" alt="Linkedin">
-           <img src="asserts/images/icons8-instagram-96.png" title="Instagram" alt="Instagram">
-           <img src="asserts/images/icons8-facebook-96.png" title="facebook" alt="facebook">
-           <hr>
-       </section>
+<!--       <section>-->
+<!--           <hr>-->
+<!--           <img src="asserts/images/icons8-message-96.png" title="Message" alt="Message">-->
+<!--           <img src="asserts/images/icons8-whatsapp-96.png" title="WhatsApp" alt="WhatsApp">-->
+<!--           <img src="asserts/images/icons8-linkedin-logo-96.png" title="Linkedin" alt="Linkedin">-->
+<!--           <img src="asserts/images/icons8-instagram-96.png" title="Instagram" alt="Instagram">-->
+<!--           <img src="asserts/images/icons8-facebook-96.png" title="facebook" alt="facebook">-->
+<!--           <hr>-->
+<!--       </section>-->
+<section>
+    <div>
+    <img src="asserts/images/icons8-message-96.png" title="Message" alt="Message">
+    </div>
+    <div>
+        <img src="asserts/images/icons8-whatsapp-96.png" title="WhatsApp" alt="WhatsApp">
+    </div>
+    <div>
+        <img src="asserts/images/icons8-linkedin-logo-96.png" title="Linkedin" alt="Linkedin">
+    </div>
+    <div>
+        <img src="asserts/images/icons8-instagram-96.png" title="Instagram" alt="Instagram">
+    </div>
+    <div>
+        <img src="asserts/images/icons8-facebook-96.png" title="facebook" alt="facebook">
+    </div>
+</section>
     </main>
 
 <br>
 <br>
 
 <!--About section-->
-<main>
+<main id="about">
     <section>
     <h2>About Me</h2>
     </section>
@@ -63,170 +105,185 @@
     </section>
 </main>
 
-<br>
-<br>
+<!--<br>-->
+<!--<br>-->
 
-<!--Skill section-->
-<main>
-    <section>
-    <h2>Skill</h2>
-    </section>
-<section>
-  <h5>Git hub            HTML              Mysql</h5>
-    <br>
-    <img src="asserts/images/icons8-github-100.png" title="Git hub" alt="Git hub">
-    <img src="asserts/images/icons8-html-48.png" title="HTML" alt="HTML">
-    <img src="asserts/images/icons8-mysql-100.png" title="Mysql" alt="Mysql">
-</section>
-    <section>
-        <h5>Java   CSS  Photoshop</h5>
-        <br>
-        <img src="asserts/images/icons8-java-48.png" title="Java" alt="Java">
-        <img src="asserts/images/icons8-css-96.png" title="CSS" alt="CSS">
-        <img src="asserts/images/icons8-photoshop-96.png" title="Photoshop" alt="Photoshop">
-    </section>
-</main>
+<!--&lt;!&ndash;Skill section&ndash;&gt;-->
+<!--<main>-->
+<!--    <section>-->
+<!--    <h2>Skill</h2>-->
+<!--    </section>-->
+<!--<section>-->
+<!--  <h5>Git hub            HTML              Mysql</h5>-->
+<!--    <br>-->
+<!--    <img src="asserts/images/icons8-github-100.png" title="Git hub" alt="Git hub">-->
+<!--    <img src="asserts/images/icons8-html-48.png" title="HTML" alt="HTML">-->
+<!--    <img src="asserts/images/icons8-mysql-100.png" title="Mysql" alt="Mysql">-->
+<!--</section>-->
+<!--    <section>-->
+<!--        <h5>Java   CSS  Photoshop</h5>-->
+<!--        <br>-->
+<!--        <img src="asserts/images/icons8-java-48.png" title="Java" alt="Java">-->
+<!--        <img src="asserts/images/icons8-css-96.png" title="CSS" alt="CSS">-->
+<!--        <img src="asserts/images/icons8-photoshop-96.png" title="Photoshop" alt="Photoshop">-->
+<!--    </section>-->
+<!--</main>-->
 
 
-<br>
-<br>
+<!--<br>-->
+<!--<br>-->
 
-<!--Gallery section-->
-<main>
-    <section>
-    <h2>Gallery</h2>
-    </section>
-    <section>
-        <img src="asserts/images/gallery.jpg" title="my-photo" alt="my-photo">
-        <img src="asserts/images/gallery1.jpg" title="my-photo" alt="my-photo">
-    </section>
-</main>
+<!--&lt;!&ndash;Gallery section&ndash;&gt;-->
+<!--<main>-->
+<!--    <section>-->
+<!--    <h2>Gallery</h2>-->
+<!--    </section>-->
+<!--    <section>-->
+<!--        <img src="asserts/images/gallery.jpg" title="my-photo" alt="my-photo">-->
+<!--        <img src="asserts/images/gallery1.jpg" title="my-photo" alt="my-photo">-->
+<!--    </section>-->
+<!--</main>-->
 
-<br>
-<br>
+<!--<br>-->
+<!--<br>-->
 
-<!--Project-->
-<main>
-    <section>
-    <h2>Project</h2>
-    </section>
-    <section>
-    <p>
-        Connect  4 Game
-        This project about game
-        that is same color balls
-        connected and that has
-        been winner.
-    </p>
-        <p>
-            MVC Project
-            This project about PLANT
-            NURSERY. It’s build by using
-            language Java in MVC architecture.
-        </p>
-     <p>
-         Layered  Project
-         This project about PLANT
-         NURSERY. It’s build by using
-         language Java in Layered architecture.
-     </p>
-    </section>
-</main>
+<!--&lt;!&ndash;Project&ndash;&gt;-->
+<!--<main>-->
+<!--    <section>-->
+<!--    <h2>Project</h2>-->
+<!--    </section>-->
+<!--    <section>-->
+<!--    <p>-->
+<!--        Connect  4 Game-->
+<!--        This project about game-->
+<!--        that is same color balls-->
+<!--        connected and that has-->
+<!--        been winner.-->
+<!--    </p>-->
+<!--        <p>-->
+<!--            MVC Project-->
+<!--            This project about PLANT-->
+<!--            NURSERY. It’s build by using-->
+<!--            language Java in MVC architecture.-->
+<!--        </p>-->
+<!--     <p>-->
+<!--         Layered  Project-->
+<!--         This project about PLANT-->
+<!--         NURSERY. It’s build by using-->
+<!--         language Java in Layered architecture.-->
+<!--     </p>-->
+<!--    </section>-->
+<!--</main>-->
 
-<br>
-<br>
+<!--<br>-->
+<!--<br>-->
 
-<!--Assignment-->
-<main>
-    <section>
-    <h2>Assignment</h2>
-    </section>
-    <section>
-<h4>Assignment 01</h4>
-<h4>Assignment 02</h4>
-<h4>Assignment 03</h4>
-<h4>Assignment 04</h4>
-    </section>
-</main>
-<br>
-<br>
+<!--&lt;!&ndash;Assignment&ndash;&gt;-->
+<!--<main>-->
+<!--    <section>-->
+<!--    <h2>Assignment</h2>-->
+<!--    </section>-->
+<!--    <section>-->
+<!--<h4>Assignment 01</h4>-->
+<!--<h4>Assignment 02</h4>-->
+<!--<h4>Assignment 03</h4>-->
+<!--<h4>Assignment 04</h4>-->
+<!--    </section>-->
+<!--</main>-->
+<!--<br>-->
+<!--<br>-->
 
-<!--Education-->
-<main>
-    <section>
-    <h2>Education</h2>
-    </section>
-    <section>
-         <section>
-        <h4>2017</h4>
-        <p>
-            GCE Ordinary Level
-            sttudy at Walasmulla national school
-        </p>
-        </section>
-    <section>
-        <h4>2021</h4>
-        <p>
-            GCE Advanced Level
-            sttudy at Walasmulla national school
-        </p>
-    </section>
-        <section>
-            <h4>2023</h4>
-            <p>
-                Higher Education
-                IJSE Institute(2023 still studying)
-            </p>
-        </section>
-    </section>
-</main>
-<br>
-<br>
+<!--&lt;!&ndash;Education&ndash;&gt;-->
+<!--<main>-->
+<!--    <section>-->
+<!--    <h2>Education</h2>-->
+<!--    </section>-->
+<!--    <section>-->
+<!--         <section>-->
+<!--        <h4>2017</h4>-->
+<!--        <p>-->
+<!--            GCE Ordinary Level-->
+<!--            sttudy at Walasmulla national school-->
+<!--        </p>-->
+<!--        </section>-->
+<!--    <section>-->
+<!--        <h4>2021</h4>-->
+<!--        <p>-->
+<!--            GCE Advanced Level-->
+<!--            sttudy at Walasmulla national school-->
+<!--        </p>-->
+<!--    </section>-->
+<!--        <section>-->
+<!--            <h4>2023</h4>-->
+<!--            <p>-->
+<!--                Higher Education-->
+<!--                IJSE Institute(2023 still studying)-->
+<!--            </p>-->
+<!--        </section>-->
+<!--    </section>-->
+<!--</main>-->
+<!--<br>-->
+<!--<br>-->
 
-<!--Contact-->
-<main>
-    <section>
-    <h2>Contact Me</h2>
-    </section>
-            <section>
-                  <h4>Thathshila Ashanganie</h4>
-                  <h4>I am available for freelance work. Connect with me via and call in to my account.</h4>
-             </section>
-        <section>
-            Phone
-            +94 71 317 91 80
-<br>
-            Email
-            thathshila123@gmail.com
-<br>
-            Address
-            Matara Rd, Hakmana.
-        </section>
+<!--&lt;!&ndash;Contact&ndash;&gt;-->
+<!--<main>-->
+<!--    <section>-->
+<!--    <h2>Contact Me</h2>-->
+<!--    </section>-->
+<!--            <section>-->
+<!--                  <h4>Thathshila Ashanganie</h4>-->
+<!--                  <h4>I am available for freelance work. Connect with me via and call in to my account.</h4>-->
+<!--             </section>-->
+<!--        <section>-->
+<!--            Phone-->
+<!--            +94 71 317 91 80-->
+<!--<br>-->
+<!--            Email-->
+<!--            thathshila123@gmail.com-->
+<!--<br>-->
+<!--            Address-->
+<!--            Matara Rd, Hakmana.-->
+<!--        </section>-->
 
-        <br>
-            <section>
-                <input type="text" placeholder="your name"><br>
-                <input type="text" placeholder="your email"><br>
-                <textarea placeholder="your message"></textarea><br>
-                <button>send message</button>
-            </section>
-
+<!--        <br>-->
+<!--            <section>-->
+<!--                <input type="text" placeholder="your name"><br>-->
+<!--                <input type="text" placeholder="your email"><br>-->
+<!--                <textarea placeholder="your message"></textarea><br>-->
+<!--                <button>send message</button>-->
+<!--            </section>-->
+<!--</main>-->
     <footer>
-        <div>
+<!--        <section id="footer data">-->
+<!--            <hr>-->
+<!--            <img src="asserts/images/icons8-message-96.png" title="Message" alt="Message">-->
+<!--            <img src="asserts/images/icons8-whatsapp-96.png" title="WhatsApp" alt="WhatsApp">-->
+<!--            <img src="asserts/images/icons8-linkedin-logo-96.png" title="Linkedin" alt="Linkedin">-->
+<!--            <img src="asserts/images/icons8-instagram-96.png" title="Instagram" alt="Instagram">-->
+<!--            <img src="asserts/images/icons8-facebook-96.png" title="facebook" alt="facebook">-->
+<!--            <hr>-->
+<!--        </section>-->
         <section>
-            <hr>
-            <img src="asserts/images/icons8-message-96.png" title="Message" alt="Message">
-            <img src="asserts/images/icons8-whatsapp-96.png" title="WhatsApp" alt="WhatsApp">
-            <img src="asserts/images/icons8-linkedin-logo-96.png" title="Linkedin" alt="Linkedin">
-            <img src="asserts/images/icons8-instagram-96.png" title="Instagram" alt="Instagram">
-            <img src="asserts/images/icons8-facebook-96.png" title="facebook" alt="facebook">
-            <hr>
+            <div>
+                <img src="asserts/images/icons8-message-96.png" title="Message" alt="Message">
+            </div>
+            <div>
+                <img src="asserts/images/icons8-whatsapp-96.png" title="WhatsApp" alt="WhatsApp">
+            </div>
+            <div>
+                <img src="asserts/images/icons8-linkedin-logo-96.png" title="Linkedin" alt="Linkedin">
+            </div>
+            <div>
+                <img src="asserts/images/icons8-instagram-96.png" title="Instagram" alt="Instagram">
+            </div>
+            <div>
+                <img src="asserts/images/icons8-facebook-96.png" title="facebook" alt="facebook">
+            </div>
         </section>
-        <section>
-            <h5>thathshilaashanganie9501@gmail.com</h5>
-        </section>
+            <div>
+                <a href="mailto:thathshilaashanganie9501@gmail.com">thathshilaashanganie9501@gmail.com</a>
+                <a href="tel:+94713179180">+94 71 317 9180</a>
         </div>
     </footer>
-</main>
 </body>
 </html>
