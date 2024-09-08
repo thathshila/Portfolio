@@ -14,11 +14,34 @@
     <link rel="stylesheet" href="./asserts/styles/about.css">
     <link rel="stylesheet" href="./asserts/styles/skill.css">
     <link rel="stylesheet" href="./asserts/styles/gallery.css">
+    <link rel="stylesheet" href="./asserts/styles/project.css">
 </head>
 <style>
     *{
          margin: 0;
         padding: 0;
+    }
+    #assignment{
+        width: 100%;
+        height: 700px;
+        background-color: #343349;
+    }
+    #assignment>section:first-child>h2{
+        font-size: 30px;
+        color: white;
+        position: absolute;
+        left: calc(100vw/2);
+        margin-top: 40px;
+    }
+    #assignment>section:nth-child(2){
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    #assignment>section:nth-child(2)>div{
+        width: 100px;
+        height: 200px;
+        padding: 10px;
+        border: 1px solid aqua;
     }
 </style>
 <body>
@@ -184,15 +207,23 @@
     </section>
 </main>
 <!--Assignment-->
-<main>
+<main id="assignment">
     <section>
     <h2>Assignment</h2>
     </section>
     <section>
-<h4>Assignment 01</h4>
-<h4>Assignment 02</h4>
-<h4>Assignment 03</h4>
-<h4>Assignment 04</h4>
+        <div>
+            <h4>Assignment 01</h4>
+        </div>
+        <div>
+            <h4>Assignment 02</h4>
+        </div>
+        <div>
+            <h4>Assignment 03</h4>
+        </div>
+        <div>
+            <h4>Assignment 04</h4>
+        </div>
     </section>
 </main>
 <!--Education-->
