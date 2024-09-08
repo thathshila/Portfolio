@@ -18,7 +18,9 @@
     width: 350px;
     height: 280px;
     margin-top: 170px;
-    position: relative;
+    /*position: relative;*/
+    border-radius: 5% ;
+    border: 1px solid black;
 }
 #gallery>section:nth-child(3){
     display: flex;
@@ -28,5 +30,7 @@
     width: 250px;
     height: 180px;
     margin-top: 60px;
-    position: relative;
+    /*position: relative;*/
+    border-radius: 5% ;
+    border: 1px solid black;
 }
