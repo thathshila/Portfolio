@@ -1,0 +1,32 @@
+#gallery{
+    width: 100vw;
+    height: 700px;
+    background-color: #343349;
+}
+#gallery>section:first-child>h2{
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    left: calc(100vw/2);
+    margin-top: 40px;
+}
+#gallery>section:nth-child(2){
+    display: flex;
+    justify-content: space-evenly;
+}
+#gallery>section:nth-child(2)>img{
+    width: 350px;
+    height: 280px;
+    margin-top: 170px;
+    position: relative;
+}
+#gallery>section:nth-child(3){
+    display: flex;
+    justify-content: space-evenly;
+}
+#gallery>section:nth-child(3)>img{
+    width: 250px;
+    height: 180px;
+    margin-top: 60px;
+    position: relative;
+}
