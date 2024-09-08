@@ -16,10 +16,51 @@
     <link rel="stylesheet" href="./asserts/styles/gallery.css">
 </head>
 <style>
-
     *{
          margin: 0;
         padding: 0;
+    }
+    #project>section{
+        width: 100vw;
+        height: 620px;
+        background-color: black;
+    }
+    #project>section:first-child>h2{
+        font-size: 30px;
+        color: white;
+        position: absolute;
+        left: calc(100vw/2);
+        margin-top: 40px;
+    }
+    #project>section:nth-child(2){
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        margin-top: -500px;
+    }
+    #project>section:nth-child(2)>div{
+        border: 1px solid blue;
+    }
+    #project>section:nth-child(2)>div:hover {
+        box-shadow: 10px 5px 50px #00ffff;
+    }
+    #project>section:nth-child(2)>div>h4{
+      font-size: 20px;
+        color: blue;
+    }
+    #project>section:nth-child(2)>div>p{
+        margin-top: 15px;
+        font-size: 20px;
+        color: #0e2945;
+    }
+   #project>section:nth-child(2)>div{
+        max-width: 300px;
+       height: 300px;
+        background-color: #00ffff;
+        box-shadow: 10px 10px 10px rgba(0,0,0,0.2);
+        border-radius: 10px;
+        padding: 20px;
+        text-align: center;
+        margin: 10px auto;
     }
 </style>
 <body>
@@ -148,30 +189,40 @@
     </section>
 </main>
 <!--Project-->
-<main>
+<main id="project">
     <section>
     <h2>Project</h2>
     </section>
     <section>
-    <p>
-        Connect  4 Game
-        This project about game
-        that is same color balls
-        connected and that has
-        been winner.
-    </p>
-        <p>
-            MVC Project
+        <div>
+            <h4> Connect  4 Game</h4>
+            <p>
+                This project about game
+                that is same color balls
+                connected and that has
+                been winner.
+            </p>
+        </div>
+        <div>
+            <h4>
+                MVC Project
+            </h4>
+            <p>
             This project about PLANT
             NURSERY. It’s build by using
             language Java in MVC architecture.
-        </p>
-     <p>
-         Layered  Project
-         This project about PLANT
-         NURSERY. It’s build by using
-         language Java in Layered architecture.
-     </p>
+             </p>
+        </div>
+        <div>
+           <h4>
+               Layered  Project
+           </h4>
+           <p>
+               This project about PLANT
+               NURSERY. It’s build by using
+               language Java in Layered architecture.
+           </p>
+       </div>
     </section>
 </main>
 <!--Assignment-->
