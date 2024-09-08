@@ -16,9 +16,9 @@ header>section>img{
     left: 25px;
 }
 header>nav{
-    top: 10px;
+    top: 20px;
     position: absolute;
-    right: 20px;
+    right: 30px;
     height: fit-content;
 }
 header>nav>ul>li{
@@ -28,6 +28,9 @@ header>nav>ul>li{
 }
 header>nav>ul>li>a{
     text-decoration: none;
-    font-size: 30px;
+    font-size: 20px;
     color: rgb(255, 255, 255);
+}
+header>nav>ul>li>a:hover{
+    color: cyan;
 }
