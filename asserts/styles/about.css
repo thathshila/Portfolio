@@ -1,6 +1,6 @@
 #about{
     background: #343349;
-    width: 100%;
+    width: 100vw;
     height: 800px;
 }
 #about>section:first-child>h2:first-child{
