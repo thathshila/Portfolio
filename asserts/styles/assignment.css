@@ -1,0 +1,48 @@
+#assignment{
+    width: 100%;
+    height: 700px;
+    background-color: #343349;
+}
+#assignment>section:first-child>h2{
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    left: calc(100vw/2);
+    margin-top: 40px;
+}
+#assignment>section:nth-child(2){
+    display: flex;
+    justify-content: space-evenly;
+}
+#assignment>section:nth-child(2)>div{
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    border: 1px solid aqua;
+    margin-top: 100px;
+    background: #5399d3;
+    box-shadow: 10px 10px 50px aqua;
+}
+#assignment>section:nth-child(2)>div>h4{
+    font-size: 30px;
+    color: blanchedalmond;
+    margin-top: 70px;
+}
+#assignment>section:nth-child(3){
+    display: flex;
+    justify-content: space-evenly;
+}
+#assignment>section:nth-child(3)>div{
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    border: 1px solid aqua;
+    margin-top: 100px;
+    background: #5399d3;
+    box-shadow: 10px 10px 50px aqua;
+}
+#assignment>section:nth-child(3)>div>h4{
+    font-size: 30px;
+    color: blanchedalmond;
+    margin-top: 70px;
+}
