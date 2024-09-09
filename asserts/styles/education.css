@@ -2,6 +2,7 @@
     width: 100vw;
     height: 700px;
     background: black;
+    position: relative;
 }
 #education>section:first-child>h2{
     color: white;
