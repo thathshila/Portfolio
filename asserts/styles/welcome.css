@@ -8,22 +8,25 @@
 #welcome>section:first-child>h1{
     display: flex;
     position: absolute;
-    top: 10vh;
+    top: 3vh;
     text-align: center;
     align-items: center;
-    font-size: 50px;
-    color: #00ffff;
+    font-size: 100px;
+    color: rgba(9, 72, 202, 0.98);
     left: 10vw;
 }
 #welcome>section:first-child>h1 {
-    font-family: "Tilt Prism", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    font-variation-settings:
-            "XROT" 0,
-            "YROT" 0;
-}
+    /*font-family: "Tilt Prism", sans-serif;*/
+    /*font-optical-sizing: auto;*/
+    /*font-weight: 400;*/
+    /*font-style: normal;*/
+    /*font-variation-settings:*/
+    /*        "XROT" 0,*/
+    /*        "YROT" 0;*/
+        font-family: "Island Moments", cursive;
+        font-weight: 400;
+        font-style: normal;
+    }
 #welcome>section:first-child>h4{
     display: flex;
     position: absolute;
