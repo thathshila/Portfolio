@@ -2,6 +2,7 @@
     width: 100vw;
     height: 620px;
     background-color: black;
+    position: relative;
 }
 #project>section:first-child>h2{
     font-size: 30px;
