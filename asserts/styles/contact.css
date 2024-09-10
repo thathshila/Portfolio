@@ -1,0 +1,100 @@
+#contact{
+    width: 100vw;
+    height: 700px;
+    background: #0e2945;
+    position: relative;
+}
+#contact>section:first-child>h2:first-child{
+    color: white;
+    position: absolute;
+    left:700px;
+    font-size: 30px;
+    margin-top: 40px;
+}
+#contact>section:first-child>h2:nth-child(2){
+    color: #00ffff;
+    position: absolute;
+    left: 840px;
+    font-size: 30px;
+    margin-top: 40px;
+}
+#contact>section:nth-child(2){
+    width: 400px;
+    height: 500px;
+    border: 2px solid gray;
+    margin-top: 100px;
+    position: absolute;
+    margin-left: 140px;
+}
+#contact>section:nth-child(2)>h4{
+    font-size: 20px;
+    color: white;
+    margin-top: 150px;
+    margin-left: 120px;
+}
+#contact>section:nth-child(2)>div{
+    position: absolute;
+    width: 350px;
+    height: 50px;
+    /*border: 1px solid white;*/
+    margin-left: 15px;
+    margin-top: 10px;
+}
+#contact>section:nth-child(2)>div>p{
+    color: white;
+    font-size: 20px;
+}
+#contact>section:nth-child(4){
+    width: 500px;
+    height: 500px;
+    /*border: 1px solid white;*/
+    position: absolute;
+    margin-top: -10px;
+    right: 170px;
+}
+#contact>section:nth-child(4)>input{
+    width: 400px;
+    /*height: 50px;*/
+    /*border-radius: 20px;*/
+    /*display: flex;*/
+    /*justify-content: space-evenly;*/
+    margin: 30px;
+    background: none;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 9999px;
+    box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
+    color: #fff;
+}
+#contact>section:nth-child(4)>textarea{
+    width: 400px;
+    height: 200px;
+    margin: 30px;
+    background: none;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
+    color: #fff;
+}
+#contact>section:nth-child(4)>button{
+    padding: 12.5px 70px;
+    border: 0;
+    border-radius: 100px;
+    background-color: #4781e3;
+    color: white;
+    font-weight: Bold;
+    position: absolute;
+    margin-left: 100px;
+    top: 500px;
+}
+#contact>section:nth-child(4)>button:hover {
+    background-color: #6fc5ff;
+    box-shadow: 0 0 20px #6fc5ff50;
+    transform: scale(1.1);
+}
+
+
