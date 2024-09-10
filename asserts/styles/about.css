@@ -25,21 +25,3 @@
     margin-left: 100px;
     margin-top: 250px;
 }
-#about>section:nth-child(2)>div{
-    width: 550px;
-    height: 180px;
-    position: absolute;
-    color: cyan;
-}
-#about>section:nth-child(2)>div>p{
-    font-size: 25px;
-    color: cyan;
-    /*position: absolute;*/
-    margin-left: 300px;
-    margin-top: 250px;
-}
-#about>section:nth-child(2)>button{
-    position: absolute;
-    top: 1100px;
-    right: 600px;
-}
