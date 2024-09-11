@@ -96,5 +96,23 @@
     box-shadow: 0 0 20px #6fc5ff50;
     transform: scale(1.1);
 }
-
-
+#contact>section:nth-child(3){
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    /*border: 2px solid white;*/
+    margin-top: 350px;
+    margin-left: 300px;
+}
+#contact>section:nth-child(3)>div>h4{
+    display: flex;
+    justify-content: start;
+    font-size: 20px;
+    color: white;
+}
+#contact>section:nth-child(3)>div>span{
+    display: flex;
+    justify-content: start;
+    font-size: 20px;
+    color: #00ffff;
+}
