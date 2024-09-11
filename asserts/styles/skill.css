@@ -35,6 +35,8 @@
     bottom: 0;
     right: 0;
     margin: auto;
+    width: 100px;
+    height: 100px;
 }
 #skill>section:nth-child(3){
     display: flex;
@@ -43,10 +45,16 @@
 #skill>section:nth-child(3)>div{
     width: 150px;
     height: 150px;
+    /*padding: 10px;*/
     border-radius: 100%;
     background-color:white;
     margin-top: 190px;
     position: relative;
+    box-shadow: 0 0 50px #00ffff;
+}
+#skill>section:nth-child(3)>div:hover {
+    box-shadow: 0 0 20px #5399d3;
+    transform: scale(1.1);
 }
 #skill>section:nth-child(3)>div>h4{
     font-size: 20px;
@@ -60,4 +68,6 @@
     bottom: 0;
     right: 0;
     margin: auto;
+    width: 100px;
+    height: 100px;
 }
