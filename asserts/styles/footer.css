@@ -1,3 +1,45 @@
+/*footer{*/
+/*    background: black;*/
+/*    width: 100vw;*/
+/*}*/
+/*footer>div{*/
+/*    */
+/*}*/
+/*footer>section>div{*/
+/*    width: 60px;*/
+/*    height: 60px;*/
+/*    position: absolute;*/
+/*    margin-top: 15px;*/
+/*    border-radius: 100%;*/
+/*    background-color: aqua;*/
+/*    box-shadow: 10px 5px 50px aqua;*/
+/*    left: 10vw;*/
+/*}*/
+/*footer>section>div>img{*/
+/*    width: 50px;*/
+/*    height: 50px;*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    right: 0;*/
+/*    bottom: 0;*/
+/*    margin: auto;*/
+/*}*/
+/*footer>section>div:nth-child(2){*/
+/*    left: 15vw;*/
+/*}*/
+/*footer>section>div:nth-child(3){*/
+/*    left: 20vw;*/
+/*}*/
+/*footer>section>div:nth-child(4){*/
+/*    left: 25vw;*/
+/*}*/
+/*footer>section>div:nth-child(5){*/
+/*    left: 30vw;*/
+/*}*/
+
+
+
 footer{
     background: black;
     width: 100vw;
@@ -6,12 +48,17 @@ footer>div{
     color: white;
     text-align: center;
     padding: 40px 0;
+    font-size: 20px;
+    margin-left: 200px;
+}
+footer>div>a{
+    color: white;
 }
 footer>section:nth-child(1)>div{
     width: 60px;
     height: 60px;
     position: absolute;
-    margin-top: 20px;
+    margin-top: 28px;
     border-radius: 100%;
     background-color: aqua;
     box-shadow: 10px 5px 50px aqua;

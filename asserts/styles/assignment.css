@@ -21,8 +21,12 @@
     padding: 10px;
     border: 1px solid aqua;
     margin-top: 100px;
-    background: #5399d3;
+    background:indigo;
     box-shadow: 10px 10px 40px #5a5aac;
+}
+#assignment>section:nth-child(2)>div:hover{
+    box-shadow: 10px 10px 30px #1a1b87;
+    transform: scale(1.1);
 }
 #assignment>section:nth-child(2)>div>h4{
     font-size: 30px;
@@ -39,7 +43,7 @@
     padding: 10px;
     border: 1px solid aqua;
     margin-top: 100px;
-    background: #5399d3;
+    background: darkblue;
     box-shadow: 10px 10px 40px #5a5aac;
 }
 #assignment>section:nth-child(3)>div>h4{
