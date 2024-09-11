@@ -22,6 +22,11 @@
     background-color:white;
     margin-top: 200px;
     position: relative;
+    box-shadow: 0 0 50px #00ffff;
+}
+#skill>section:nth-child(2)>div:hover{
+    box-shadow: 10px 10px 30px #5399d3;
+    transform: scale(1.1);
 }
 #skill>section:nth-child(2)>div>h4{
     font-size: 20px;

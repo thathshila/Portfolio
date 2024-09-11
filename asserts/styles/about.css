@@ -28,7 +28,7 @@
 #about>section:nth-child(2)>div{
     width: 550px;
     height: 180px;
-    border:2px solid white;
+    /*border:2px solid white;*/
     position: absolute;
     top: 250px;
     margin-left: 700px;
