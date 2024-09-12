@@ -3,8 +3,7 @@
     position: relative;
     background-color: black;
     width: 100vw;
-    height: 600px;
-    top: 60px;
+    height: 700px;
 }
 #welcome>section:first-child>h1{
     display: flex;
@@ -55,7 +54,7 @@
 #welcome>section:nth-child(2)>img{
     width: 400px;
     right: 30px;
-    top: 10px;
+    top: 70px;
     position: absolute;
     border-radius: 40px;
     border: 5px solid aqua;
