@@ -4,6 +4,7 @@
     background-color: black;
     width: 100vw;
     height: 600px;
+    top: 60px;
 }
 #welcome>section:first-child>h1{
     display: flex;
