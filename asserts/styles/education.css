@@ -3,6 +3,7 @@
     height: 700px;
     background: black;
     position: relative;
+    top: 20px;
 }
 #education>section:first-child>h2{
     color: white;
