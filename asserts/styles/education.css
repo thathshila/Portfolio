@@ -19,7 +19,7 @@
     height: 500px;
     background: cyan;
     margin-left: calc(100vw/2);
-    position: relative;
+    position: absolute;
     margin-top: 120px;
 }
 #education>section:nth-child(2)>div:first-child>div{

@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta>
     <title>Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,6 +22,8 @@
     <link rel="stylesheet" href="./asserts/styles/assignment.css">
     <link rel="stylesheet" href="./asserts/styles/education.css">
     <link rel="stylesheet" href="./asserts/styles/contact.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 <style>
     *{
@@ -53,14 +56,14 @@
 <main id="welcome">
         <!--welcome section-->
         <section>
-            <h1>HELLO...!</h1>
+            <h1 data-aos="fade-down">HELLO...!</h1>
             <h4>I'M   </h4>  <br>
-           <span> Thathshila Ashanganie </span>  <br>
+           <span class="animate__animated animate__shakeX"> Thathshila Ashanganie </span>  <br>
            <h3> Contact me... </h3>   <br>
         </section>
 <!--        right-->
         <section>
-            <img src="asserts/images/homeImage.jpg" title="My-photo" alt="My-photo">
+<!--            <img src="asserts/images/mynew4.png" title="My-photo" alt="My-photo">-->
         </section>
 <section>
     <div>
@@ -83,8 +86,7 @@
 <!--About section-->
 <main id="about">
     <section>
-    <h2>About</h2>
-<h2>Me</h2>
+    <h2>About Me</h2>
     </section>
     <!--image and my details-->
     <section>
@@ -92,12 +94,13 @@
         <img src="asserts/images/AboutMy.jpg" title="My-photo" alt="My-photo">
 <!--        right-->
         <div>
-        <p>
+        <p data-aos="fade-down">
             I'm Thathshila Ashanganie, an aspiring full-stack developer and currently an undergraduate software engineer.
             With a passion for technology and a curiosity that drives me, I am on an exciting journey to master the art of crafting innovative and user-friendly software solutions.
         </p>
+            <button>Download CV</button>
         </div>
-        <button>Download CV</button>
+
     </section>
 </main>
 <!--Skill section-->
@@ -322,5 +325,10 @@
         <a href="tel:+94713179180">+94 71 317 9180</a>
 </div>
     </footer>
+<!--ADS js file-->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 </body>
 </html>
