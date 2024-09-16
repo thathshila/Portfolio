@@ -37,16 +37,23 @@
     font-size: 25px;
     color: cyan;
 }
+#about>section:nth-child(2)>div>p{
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 #about>section:nth-child(2)>div>button{
-    padding: 12.5px 30px;
+    padding: 17.5px 60px;
     border: 0;
     border-radius: 100px;
     background-color: #2ba8fb;
     color: #ffffff;
     font-weight: Bold;
     position: absolute;
-    margin-left: 500px;
-    top: 500px;
+    margin-left: 200px;
+    top: 240px;
+    font-size: 13px;
 }
 #about>section:nth-child(2)>div>button:hover {
     background-color: #6fc5ff;
