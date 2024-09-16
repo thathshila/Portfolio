@@ -29,8 +29,8 @@
 #contact>section:nth-child(2)>h4{
     font-size: 30px;
     color: white;
-    margin-top: 150px;
-    margin-left: 100px;
+    margin-top: 130px;
+    margin-left: 130px;
 }
 #contact>section:nth-child(2)>h4{
     font-family: "Cookie", cursive;
@@ -49,6 +49,11 @@
 #contact>section:nth-child(2)>div>p{
     color: white;
     font-size: 20px;
+}
+#contact>section:nth-child(2)>div>p{
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 #contact>section:nth-child(3){
     position: absolute;
