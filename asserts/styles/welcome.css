@@ -51,12 +51,15 @@
     font-size: 40px;
     color: aqua;
     left: 15vw;
+    font-family: "Fredericka the Great", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 #welcome>section:nth-child(2){
     width: 700px;
     height:700px;
     border-radius: 100%;
-    margin: -50px;
+    margin: -46px;
     box-shadow: 5px 5px 40px aqua;
 }
 #welcome>section:nth-child(2)>img{
@@ -73,7 +76,8 @@
     position: absolute;
     top: 440px;
     border-radius: 100%;
-    background-color: aqua;
+    background-color: black;
+    border: 3px solid aqua;
     /*box-shadow: 10px 5px 50px aqua;*/
     left: 15vw;
 }
