@@ -10,7 +10,11 @@
     position: absolute;
     left: calc(100vw/2);
     margin-top: 40px;
-    color: cyan;
+    color: aqua;
+    font-family: "Kameron", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 /* CSS reset */
 *,

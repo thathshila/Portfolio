@@ -125,8 +125,8 @@
 }
 #welcome>section.img>div:first-child{
     position: absolute;
-    width: 550px;
-    height: 550px;
+    width: 580px;
+    height: 580px;
     border-radius: 100%;
     background: linear-gradient(120deg,aqua,white);
     filter: blur(60px);

@@ -3,7 +3,7 @@ header{
     display: inline-block;
     width: 100vw;
     /*background-color: rgb(52, 51, 73);*/
-    background-color: #0e2945;
+    background-color: #758694;
     height: 60px;
     z-index: 9999;
 }
@@ -39,5 +39,50 @@ header>nav>ul>li>a {
 }
 header>nav>ul>li>a:hover{
     color: cyan;
+}
+
+
+
+/* Media Query for Mobile Phones */
+@media only screen and (max-width: 768px) {
+    header {
+        height: auto;
+        display: block;
+        padding: 10px;
+    }
+
+    header>section {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+    header>section>img {
+        width: 60px;
+        height: 40px;
+        position: static; /* Removes absolute positioning */
+        margin: 0 auto;
+    }
+
+    header>nav {
+        top: 0;
+        position: static; /* Position below logo for mobile view */
+        text-align: center;
+        width: 100%;
+    }
+
+    header>nav>ul {
+        padding: 0;
+    }
+
+    header>nav>ul>li {
+        display: block;
+        padding-left: 0;
+        padding-top: 10px;
+    }
+
+    header>nav>ul>li>a {
+        font-size: 16px; /* Adjust font size for mobile */
+    }
 }
 
