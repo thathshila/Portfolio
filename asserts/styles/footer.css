@@ -59,8 +59,9 @@ footer>section:nth-child(1)>div{
     height: 60px;
     position: absolute;
     margin-top: 28px;
+    border: 2px solid aqua;
     border-radius: 100%;
-    background-color: aqua;
+    background-color: black;
     box-shadow: 10px 5px 50px aqua;
     left: 10vw;
 }

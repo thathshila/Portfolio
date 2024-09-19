@@ -145,8 +145,8 @@
     grid-template-rows: repeat(3,1fr);
 }
 #contact>section:nth-child(5)>div{
-    width: 45px;
-    height: 45px;
+    width: 48px;
+    height: 48px;
     /*justify-content: space-around;*/
     background-color: black;
     border: 2px solid aqua;
