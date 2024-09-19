@@ -55,15 +55,17 @@ footer>div>a{
     color: white;
 }
 footer>section:nth-child(1)>div{
-    width: 60px;
-    height: 60px;
+    width: 65px;
+    height: 65px;
     position: absolute;
     margin-top: 28px;
     border: 2px solid aqua;
     border-radius: 100%;
     background-color: black;
-    box-shadow: 10px 5px 50px aqua;
     left: 10vw;
+}
+footer>section:nth-child(1)>div:hover{
+    box-shadow: 10px 5px 50px aqua;
 }
 footer>section>div>img{
     width: 50px;
