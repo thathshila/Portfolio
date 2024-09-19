@@ -4,16 +4,35 @@
     background-color: black;
     position: relative;
 }
-#skill>section:first-child>h2{
-    font-size:30px;
+#skill>section:first-child>h2.skill1{
+    font-size: 70px;
     position: absolute;
-    left: calc(100%/2);
+    left: 760px;
     margin-top: 40px;
     color: white;
     font-family:"Kameron", serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+}
+#skill>section:first-child>h2.skill2{
+    font-size:30px;
+    position: absolute;
+    left: 795px;
+    margin-top: 60px;
+    color: white;
+    font-family:"Kameron", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+#skill>section:first-child>div{
+    width: 500px;
+    height: 5px;
+    position: absolute;
+    background-color: #00ffff;
+    left: 795px;
+    margin-top: 90px;
 }
 #skill>section:nth-child(2){
     display: flex;
