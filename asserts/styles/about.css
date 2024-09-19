@@ -4,21 +4,21 @@
     height: 800px;
     position: relative;
 }
-#about>section:first-child>h2:first-child{
+#about>section:first-child>h2.topic1{
     color: #00ffff;
     position: absolute;
     left:750px;
-    font-size: 30px;
+    font-size: 70px;
     margin-top: 40px;
     font-family:"Kameron", serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
 }
-#about>section:first-child>h2:nth-child(2){
+#about>section:first-child>h2.topic2{
     color: white;
-    /*position: absolute;*/
-    /*left: 840px;*/
+    position: absolute;
+    left: 840px;
     font-size: 30px;
     margin-top: 40px;
     font-family:"Kameron", serif;

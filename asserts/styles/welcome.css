@@ -128,10 +128,10 @@
     width: 580px;
     height: 580px;
     border-radius: 100%;
-    background: linear-gradient(120deg,aqua,white);
-    filter: blur(60px);
-    right: 60px;
-    margin-top: 70px;
+    background: linear-gradient(120deg, #001a80,white);
+    filter: blur(80px);
+    right: 20px;
+    margin-top: 86px;
 }
 #welcome>section.img>img{
     width: 495px;
