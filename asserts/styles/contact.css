@@ -148,7 +148,8 @@
     width: 45px;
     height: 45px;
     /*justify-content: space-around;*/
-    background-color: #1db8c6;
+    background-color: black;
+    border: 2px solid aqua;
     border-radius: 10px;
 
 }

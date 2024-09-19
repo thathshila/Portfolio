@@ -110,6 +110,31 @@
     left: 35vw;
 }
 
+#welcome>section.img>div:nth-child(2){
+    position: absolute;
+    width: 370px;
+    height: 500px;
+    border: 10px solid white;
+    top: 140px;
+    right: 150px;
+    background: black;
+}
+#welcome>section.img>div:first-child{
+    position: absolute;
+    width: 550px;
+    height: 550px;
+    border-radius: 100%;
+    background: linear-gradient(120deg,aqua,white);
+    filter: blur(60px);
+    right: 60px;
+    margin-top: 70px;
+}
+#welcome>section.img>img{
+    width: 495px;
+    margin-left: 280px;
+    position: absolute;
+    bottom: 69px;
+}
 @media all and (max-width:500px) {
     #welcome>section:nth-child(2)>img{
         display: none;
