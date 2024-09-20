@@ -1,10 +1,13 @@
 
 #assignment{
+    width: 100vw;
+    height: 700px;
     margin:-20px;
     padding: 0;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     background: #0e2945;
+    position: relative;
 }
 
 /*h1{*/
@@ -15,42 +18,44 @@
 /*    margin: 2rem 0;*/
 /*    color: white;*/
 /*}*/
-
-#assignment>section:first-child>h2.a1{
+#assignment>.a1{
     font-size: 70px;
     color: #00ffff;
     position: absolute;
     left:750px;
-    margin-top: 40px;
+    margin-top: 5px;
     font-family:"Kameron", serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
 }
-#assignment>section:first-child>h2.a2{
+#assignment>.a2{
     color: white;
     position: absolute;
     left: 800px;
     font-size: 30px;
-    margin-top: 60px;
+    margin-top: 30px;
     font-family:"Kameron", serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
 }
-#assignment>section:nth-child(1)>div{
+#assignment>.a3{
     width: 300px;
     height: 5px;
     position: absolute;
     background-color: #00ffff;
     left: 799px;
-    margin-top: 90px;
+    margin-top: 60px;
 }
 .wrapper{
     width: 90%;
-    margin: 0 auto;
+    /*margin: 0 auto;*/
     max-width: 80rem;
     background: #0e2945;
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 400px
 }
 
 .cols{
