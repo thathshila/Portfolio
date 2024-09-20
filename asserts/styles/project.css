@@ -1,20 +1,39 @@
 
-#topic{
-    /*!*width: 100vw;*!*/
-    /*!*height: 620px;*!*/
-    /*background-color: black;*/
+#project{
+    width: 100vw;
+    height: 720px;
+    background-color: black;
     position: relative;
 }
-#topic>h2{
-    font-size: 30px;
+#topic>h2.p1{
+    font-size: 70px;
     position: absolute;
-    left: calc(100vw/2);
+    left: 750px;
     margin-top: 40px;
     color: aqua;
     font-family: "Kameron", serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+}
+#topic>h2.p2{
+    color: white;
+    position: absolute;
+    left: 790px;
+    font-size: 30px;
+    margin-top: 60px;
+    font-family:"Kameron", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+#topic>div{
+    width: 300px;
+    height: 5px;
+    position: absolute;
+    background-color: #00ffff;
+    left: 779px;
+    margin-top: 90px;
 }
 /* CSS reset */
 *,
