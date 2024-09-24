@@ -2,6 +2,7 @@
     width: 100vw;
     height: 700px;
     background: #0e2945;
+    /*background: black;*/
     position: relative;
 }
 #contact>section:first-child>h2.c1{
