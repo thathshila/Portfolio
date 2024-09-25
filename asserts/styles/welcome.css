@@ -138,10 +138,8 @@
     position: absolute;
     bottom: 69px;
 }
-/*@media all and (max-width:500px) {*/
-/*    #welcome>section:nth-child(2)>img{*/
-/*        display: none;*/
-/*    }*/
+
+
 @media all and (max-width: 768px){
     #welcome {
         display: flex;
