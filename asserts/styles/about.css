@@ -104,7 +104,7 @@
         /*background: #0e2945;*/
         background: black;
         width: 768px;
-        height: 700px;
+        height: 642px;
         position: relative;
     }
     #about>section:first-child>h2.topic1{
@@ -134,7 +134,7 @@
         height: 3px;
         position: absolute;
         background-color: #00ffff;
-        left: 407px;
+        left: 409px;
         margin-top: 85px;
     }
 
