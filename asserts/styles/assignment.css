@@ -156,6 +156,9 @@
     -webkit-perspective: inherit;
     perspective: inherit;
     z-index: 2;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
 }
 
 .container .back{
@@ -211,6 +214,14 @@
     font-weight: 300;
 }
 
+.btn{
+    /*width: 50px;*/
+    /*height: 30px;*/
+    padding: 11.5px 30px;
+    border: 0;
+    border-radius: 100px;
+    background: cyan;
+}
 @media screen and (max-width: 64rem){
     .col{
         width: calc(33.333333% - 2rem);
@@ -230,9 +241,5 @@
     }
 }
 
-.btn{
-    width: 50px;
-    height: 30px;
-    background: cyan;
-}
+
 
