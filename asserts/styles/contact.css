@@ -107,12 +107,13 @@
     color: #00ffff;
 }
 #contact>section:nth-child(4){
-    width: 500px;
+    width: 457px;
     height: 500px;
     /*border: 1px solid white;*/
     position: absolute;
-    margin-top:120px;
-    right: 170px;
+    margin-top:150px;
+    right: 222px;
+    background: white;
 }
 #contact>section:nth-child(4)>input{
     width: 400px;
@@ -120,15 +121,15 @@
     /*border-radius: 20px;*/
     /*display: flex;*/
     /*justify-content: space-evenly;*/
-    margin: 30px;
+    margin: 20px;
     background: none;
     border: none;
     outline: none;
     padding: 10px 20px;
     font-size: 16px;
     border-radius: 9999px;
-    box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
-    color: #fff;
+    box-shadow: inset 2px 5px 10px #001a80;
+    color: black;
 }
 #contact>section:nth-child(4)>textarea{
     width: 400px;
@@ -139,8 +140,8 @@
     outline: none;
     padding: 10px 20px;
     font-size: 16px;
-    box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
-    color: #fff;
+    box-shadow: inset 2px 5px 10px #001a80;
+    color: black;
 }
 #contact>section:nth-child(4)>button{
     padding: 12.5px 70px;
@@ -151,7 +152,7 @@
     font-weight: Bold;
     position: absolute;
     margin-left: 100px;
-    top: 500px;
+    top: 430px;
     font-size: 13px;
 }
 #contact>section:nth-child(4)>button:hover {
