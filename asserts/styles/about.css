@@ -73,12 +73,12 @@
 
 #about>section:nth-child(3)>div:first-child{
     position: absolute;
-    width: 400px;
-    height: 400px;
+    width: 445px;
+    height: 417px;
     border-radius: 100%;
     background: linear-gradient(60deg, #00ffff,white);
     filter: blur(100px);
-    margin-top: 200px;
+    margin-top: 156px;
     left: 150px;
 }
 #about>section:nth-child(3)>div:nth-child(2){
@@ -88,8 +88,8 @@
     border-radius: 100%;
     border: 10px solid white;
     background: linear-gradient(180deg,black,white);
-    margin-top: 220px;
-    left: 170px;
+    margin-top: 140px;
+    left: 138px;
 }
 #about>section:nth-child(3)>img{
     width: 1080px;

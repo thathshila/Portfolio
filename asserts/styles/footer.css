@@ -49,9 +49,9 @@ footer>div{
     text-align: center;
     padding: 45px 0;
     font-size: 20px;
-    margin-left: 400px;
+    margin-left: 500px;
 }
-footer>div>#f1{
+footer>div>h3{
     font-family: "Jacques Francois Shadow", serif;
     font-weight: 400;
     font-style: normal;
@@ -59,22 +59,7 @@ footer>div>#f1{
     font-size: 20px;
     color: rgb(255, 255, 255);
     }
-footer>div>#f2{
-    font-family: "Jacques Francois Shadow", serif;
-    font-weight: 400;
-    font-style: normal;
-    text-decoration: none;
-    font-size: 20px;
-    color: rgb(0, 255, 255);
-}
-footer>div>#f3{
-    font-family: "Jacques Francois Shadow", serif;
-    font-weight: 400;
-    font-style: normal;
-    text-decoration: none;
-    font-size: 20px;
-    color: rgb(255, 255, 255);
-}
+
 footer>section:nth-child(1)>div{
     width: 65px;
     height: 65px;
@@ -110,3 +95,7 @@ footer>section>div:nth-child(4){
 footer>section>div:nth-child(5){
     left: 30vw;
 }
+footer>section>div:nth-child(6){
+    left: 35vw;
+}
+
