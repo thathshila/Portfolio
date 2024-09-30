@@ -35,27 +35,60 @@
     left: 799px;
     margin-top: 90px;
 }
+
 #gallery>section:nth-child(2){
+    width: 60vw;
+    height: 60vh;
+    border: 3px solid aqua;
+    overflow: hidden;
+    position: relative;
+    margin: auto;
+    top: 175px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+#gallery>section:nth-child(2)>section{
     display: flex;
-    justify-content: space-evenly;
+    width: fit-content;
+    animation: animation-slide 15s infinite alternate ;
 }
-#gallery>section:nth-child(2)>img{
-    width: 350px;
-    height: 280px;
-    margin-top: 170px;
-    /*position: relative;*/
-    border-radius: 5% ;
-    border: 1px solid black;
+#gallery>section:nth-child(2)>section>div{
+    width: 60vw;
+    height: 60vh;
 }
-#gallery>section:nth-child(3){
-    display: flex;
-    justify-content: space-evenly;
+#gallery>section:nth-child(2)>section>div:first-child{
+    background: url("../images/gallery1.jpg");
+    background-size: cover;
+    background-position: center;
 }
-#gallery>section:nth-child(3)>img{
-    width: 250px;
-    height: 180px;
-    margin-top: 60px;
-    /*position: relative;*/
-    border-radius: 5% ;
-    border: 1px solid black;
+#gallery>section:nth-child(2)>section>div:nth-child(2){
+    background: url("../images/gallery2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+#gallery>section:nth-child(2)>section>div:nth-child(3){
+    background: url("../images/gallery.jpg");
+    background-size: cover;
+    background-position: center;
+}
+#gallery>section:nth-child(2)>section>div:nth-child(4){
+    background: url("../images/gallery-flower.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+@keyframes animation-slide {
+    0%,20%{
+        transform: translateX(0%);
+    }
+    25%,45%{
+        transform: translateX(-25%);
+    }
+    50%,70%{
+        transform: translateX(-50%);
+    }
+    75%{
+        transform: translateX(-75%);
+    }
 }
