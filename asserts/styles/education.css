@@ -77,7 +77,7 @@
     position:absolute;
     border-radius:30px;
     background: linear-gradient(130deg, black 70% ,white 300% );
-    box-shadow:-5px -5px 10px dimgray ;
+    box-shadow:-12px -12px 10px dimgray ;
 }
 #education>section:nth-child(3)>section:first-child{
     margin-top: 110px;
@@ -95,17 +95,26 @@
     left: 800px;
 }
 
+
 #education>section:nth-child(3)>section:first-child>h4{
     font-size: 30px;
     color: aqua;
     margin-top: 20px;
     margin-left: 150px;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 #education>section:nth-child(3)>section:first-child>p{
     font-size: 20px;
     margin-top: 20px;
     margin-left: 28px;
     color: white;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 #education>section:nth-child(3)>section:nth-child(2)>h4{
@@ -113,22 +122,82 @@
     color: aqua;
     margin-top: 20px;
     margin-left: 150px;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 #education>section:nth-child(3)>section:nth-child(2)>p{
     font-size: 20px;
     margin-top: 20px;
     margin-left:28px;
     color: white;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
+
 #education>section:nth-child(3)>section:nth-child(3)>h4{
     font-size: 30px;
     color: aqua;
     margin-top: 20px;
     margin-left: 150px;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 #education>section:nth-child(3)>section:nth-child(3)>p{
     font-size: 20px;
     margin-top: 20px;
     margin-left: 30px;
     color: white;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
+
+/*media query for tablet*/
+@media all and (max-width: 768px){
+    #education{
+        width: 768px;
+        height: 642px;
+        /*background-color: black;*/
+        background: #0e2945;
+        position: relative;
+    }
+    #education>section:first-child>h2.e1{
+        font-size: 45px;
+        position: absolute;
+        left: 376px;
+        margin-top: 50px;
+        color: #00ffff;
+        font-family: "Kameron", serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+    }
+    #education>section:first-child>h2.e2{
+        font-size: 25px;
+        position: absolute;
+        left: 402px;
+        margin-top: 60px;
+        color: white;
+        font-family: "Kameron", serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+    }
+    #education>section:nth-child(1)>div{
+        width: 200px;
+        height: 3px;
+        position: absolute;
+        background-color: #00ffff;
+        left: 403px;
+        margin-top: 85px;
+    }
+}
+
+
