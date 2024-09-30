@@ -14,6 +14,7 @@
     font-size: 100px;
     color: aqua;
     left: 10vw;
+    animation-iteration-count: infinite;
     /*border: 5px solid white;*/
 }
 #welcome>section:first-child>h1 {
@@ -54,7 +55,9 @@
     font-family: "Fredericka the Great", serif;
     font-weight: 400;
     font-style: normal;
+    animation-iteration-count: infinite;
 }
+
 #welcome>section:nth-child(2){
     width: 700px;
     height:700px;
@@ -70,6 +73,7 @@
     /*border: 5px solid aqua;*/
     /*border-radius: 100%;*/
 }
+
 #welcome>section:nth-child(3)>div{
     width: 60px;
     height: 60px;
@@ -113,6 +117,7 @@
 #welcome>section:nth-child(3)>div:nth-child(5){
     left: 35vw;
 }
+
 #welcome>section.img>div:nth-child(2){
     position: absolute;
     width: 370px;
