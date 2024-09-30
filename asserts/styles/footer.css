@@ -1,44 +1,3 @@
-/*footer{*/
-/*    background: black;*/
-/*    width: 100vw;*/
-/*}*/
-/*footer>div{*/
-/*    */
-/*}*/
-/*footer>section>div{*/
-/*    width: 60px;*/
-/*    height: 60px;*/
-/*    position: absolute;*/
-/*    margin-top: 15px;*/
-/*    border-radius: 100%;*/
-/*    background-color: aqua;*/
-/*    box-shadow: 10px 5px 50px aqua;*/
-/*    left: 10vw;*/
-/*}*/
-/*footer>section>div>img{*/
-/*    width: 50px;*/
-/*    height: 50px;*/
-/*    position: absolute;*/
-/*    top: 0;*/
-/*    left: 0;*/
-/*    right: 0;*/
-/*    bottom: 0;*/
-/*    margin: auto;*/
-/*}*/
-/*footer>section>div:nth-child(2){*/
-/*    left: 15vw;*/
-/*}*/
-/*footer>section>div:nth-child(3){*/
-/*    left: 20vw;*/
-/*}*/
-/*footer>section>div:nth-child(4){*/
-/*    left: 25vw;*/
-/*}*/
-/*footer>section>div:nth-child(5){*/
-/*    left: 30vw;*/
-/*}*/
-
-
 
 footer{
     background: black;
@@ -99,3 +58,66 @@ footer>section>div:nth-child(6){
     left: 35vw;
 }
 
+/*media query for tablet*/
+@media all and (max-width: 768px){
+
+    footer{
+        background: black;
+        width: 100vw;
+    }
+    footer>div{
+        color: white;
+        text-align: center;
+        padding: 45px 0;
+        font-size: 15px;
+        margin-left: 290px;
+    }
+    footer>div>h3{
+        font-family: "Jacques Francois Shadow", serif;
+        font-weight: 400;
+        font-style: normal;
+        text-decoration: none;
+        font-size: 15px;
+        color: rgb(255, 255, 255);
+    }
+
+    footer>section:nth-child(1)>div{
+        width: 45px;
+        height: 45px;
+        position: absolute;
+        margin-top: 28px;
+        border: 2px solid aqua;
+        border-radius: 100%;
+        background-color: black;
+        left: 3vw;
+    }
+    footer>section:nth-child(1)>div:hover{
+        box-shadow: 10px 5px 50px aqua;
+    }
+    footer>section>div>img{
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+    }
+    footer>section>div:nth-child(2){
+        left: 9vw;
+    }
+    footer>section>div:nth-child(3){
+        left: 15vw;
+    }
+    footer>section>div:nth-child(4){
+        left: 21vw;
+    }
+    footer>section>div:nth-child(5){
+        left: 27vw;
+    }
+    footer>section>div:nth-child(6){
+        left: 33vw;
+    }
+
+}

@@ -197,7 +197,7 @@
         width: 500px;
         height:500px;
         border-radius: 100%;
-        margin: -46px;
+        margin: -40px;
         box-shadow: 5px 5px 40px aqua;
     }
     /*#welcome>section:nth-child(2)>img{*/
@@ -210,12 +210,12 @@
         width: 50px;
         height: 50px;
         position: absolute;
-        top: 350px;
+        top: 343px;
         border-radius: 100%;
         background-color: black;
         border: 3px solid aqua;
         /*box-shadow: 10px 5px 50px aqua;*/
-        left: 15vw;
+        left: 14vw;
     }
     #welcome>section:nth-child(3)>div:hover{
         width: 50px;
@@ -238,34 +238,34 @@
         margin: auto;
     }
     #welcome>section:nth-child(3)>div:nth-child(2){
-        left: 20vw;
+        left: 21vw;
     }
     #welcome>section:nth-child(3)>div:nth-child(3){
-        left: 25vw;
+        left: 28vw;
     }
     #welcome>section:nth-child(3)>div:nth-child(4){
-        left: 30vw;
+        left: 35vw;
     }
     #welcome>section:nth-child(3)>div:nth-child(5){
-        left: 35vw;
+        left: 42vw;
     }
     #welcome>section.img>div:nth-child(2){
         position: absolute;
-        width: 170px;
+        width: 200px;
         height: 300px;
         border: 10px solid white;
         top: 140px;
-        right: 100px;
+        right: 55px;
         background: black;
     }
     #welcome>section.img>div:first-child{
         position: absolute;
-        width: 380px;
-        height: 380px;
+        width: 359px;
+        height: 367px;
         border-radius: 100%;
         background: linear-gradient(120deg, #001a80,white);
         filter: blur(80px);
-        right: 8px;
+        right: -75px;
         margin-top: 86px;
     }
     #welcome>section.img>img{
