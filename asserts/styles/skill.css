@@ -214,3 +214,118 @@
         height: 80px;
     }
 }
+
+/*media query for laptop 1440px*/
+@media all and (max-width: 1440px){
+    #skill{
+        width: 1440px;
+        height: 750px;
+        /*background-color: black;*/
+        background: #0e2945;
+        position: relative;
+    }
+    #skill>section:first-child>h2.skill1{
+        font-size: 70px;
+        position: absolute;
+        left: 760px;
+        margin-top: 40px;
+        color: #00ffff;
+        font-family:"Kameron", serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+    }
+    #skill>section:first-child>h2.skill2{
+        font-size:30px;
+        position: absolute;
+        left: 795px;
+        margin-top: 60px;
+        color: white;
+        font-family:"Kameron", serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+    }
+    #skill>section:first-child>div{
+        width: 300px;
+        height: 5px;
+        position: absolute;
+        background-color: #00ffff;
+        left: 795px;
+        margin-top: 90px;
+    }
+
+    #skill>section:nth-child(2){
+        display: flex;
+        justify-content: space-evenly;
+    }
+    #skill>section:nth-child(2)>div{
+        width: 150px;
+        height: 150px;
+        border-radius: 100%;
+        background-color:white;
+        margin-top: 200px;
+        position: relative;
+        box-shadow: 0 0 50px #00ffff;
+    }
+    #skill>section:nth-child(2)>div:hover{
+        box-shadow: 10px 10px 30px #5399d3;
+        transform: scale(1.1);
+    }
+    #skill>section:nth-child(2)>div>h4{
+        font-size: 25px;
+        color: white;
+        margin-top: -45px;
+        font-family: "Gowun Batang", serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    #skill>section:nth-child(2)>div>img{
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+        width: 100px;
+        height: 100px;
+    }
+
+    #skill>section:nth-child(3){
+        display: flex;
+        justify-content: space-evenly;
+    }
+    #skill>section:nth-child(3)>div{
+        width: 150px;
+        height: 150px;
+        /*padding: 10px;*/
+        border-radius: 100%;
+        background-color:white;
+        margin-top: 190px;
+        position: relative;
+        box-shadow: 0 0 50px #00ffff;
+    }
+    #skill>section:nth-child(3)>div:hover {
+        box-shadow: 0 0 20px #5399d3;
+        transform: scale(1.1);
+    }
+    #skill>section:nth-child(3)>div>h4{
+        font-size: 25px;
+        color: white;
+        margin-top: -45px;
+        font-family: "Gowun Batang", serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    #skill>section:nth-child(3)>div>img{
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+        width: 100px;
+        height: 100px;
+    }
+
+}
