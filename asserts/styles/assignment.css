@@ -243,34 +243,18 @@
 
 @media all and (max-width: 1440px){
     #assignment>.a1{
-        font-size: 45px;
-        position: absolute;
         left: 632px;
         margin-top: 50px;
-        color: #00ffff;
-        font-family: "Kameron", serif;
-        font-optical-sizing: auto;
-        font-weight: 400;
-        font-style: normal;
     }
     #assignment>.a2{
-        font-size: 25px;
-        position: absolute;
-        left: 665px;
-        margin-top: 60px;
-        color: white;
-        font-family: "Kameron", serif;
-        font-optical-sizing: auto;
-        font-weight: 400;
-        font-style: normal;
+        left: 675px;
+        margin-top: 72px;
     }
     #assignment>.a3{
         width: 200px;
         height: 3px;
-        position: absolute;
-        background-color: #00ffff;
-        left: 666px;
-        margin-top: 85px;
+        left: 682px;
+        margin-top: 105px;
     }
 
     .wrapper {

@@ -2,7 +2,6 @@ header{
     position: fixed;
     display: inline-block;
     width: 100vw;
-    /*background-color: rgb(52, 51, 73);*/
     background-color: #758694;
     height: 60px;
     z-index: 9999;
@@ -46,50 +45,14 @@ header>nav>ul>li>a:hover{
 /*media query for laptop 1440px*/
 @media all and (max-width: 1440px) {
     header {
-        /*position: fixed;*/
-        /*display: inline-block;*/
         width: 1440px;
-        /*background-color: rgb(52, 51, 73);*/
-        /*background-color: #758694;*/
-        height: 60px;
-        z-index: 9999;
     }
-
-    header > section {
-        /*display: flex;*/
-    }
-
-    header > section > img {
-        width: 80px;
-        height: 50px;
-        top: 10px;
-        /*position: absolute;*/
+    header>section>img{
         left: 35px;
     }
-
-    header > nav {
-        top: 20px;
-        /*position: absolute;*/
+    header>nav{
         right: 190px;
-        /*height: fit-content;*/
     }
-
-    header > nav > ul > li {
-        /*display: inline-block;*/
-        /*right: 0;*/
-        padding-left: 20px;
-    }
-
-    header > nav > ul > li > a {
-        /*text-decoration: none;*/
-        font-size: 18px;
-        /*color: rgb(255, 255, 255);*/
-
-        /*font-family: "Playfair Display SC", serif;*/
-        /*font-weight: 400;*/
-        /*font-style: normal;*/
-    }
-
 }
 
 /*media query for laptop 1024px*/
