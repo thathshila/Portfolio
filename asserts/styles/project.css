@@ -332,7 +332,25 @@ body {
 }
 
 
-
+@media all and (max-width: 1440px){
+    #topic>h2.p1{
+        left: 636px;
+    }
+    #topic>h2.p2{
+        left: 678px;
+    }
+    #topic>div{
+        width: 200px;
+        height: 3px;
+        position: absolute;
+        background-color: #00ffff;
+        left: 662px;
+        margin-top: 85px;
+    }
+    .card-area{
+        padding: 22rem;
+    }
+}
 /*media query for tablet*/
 @media all and (max-width: 768px){
     #project{
@@ -370,6 +388,7 @@ body {
         position: absolute;
         background-color: #00ffff;
         left: 403px;
-        margin-top: 85px;
+        margin-top: 95px;
     }
 }
+

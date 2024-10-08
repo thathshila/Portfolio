@@ -144,145 +144,13 @@
     bottom: 69px;
 }
 
-/*media query for tablet*/
-@media all and (max-width: 768px){
-    #welcome {
-        display: flex;
-        position: relative;
-        background-color: black;
-        width: 768px;
-        height: 642px;
-    }
-    #welcome>section:first-child>h1 {
-        display: flex;
-        position: absolute;
-        top: 11vh;
-        text-align: center;
-        align-items: center;
-        font-size: 70px;
-        color: aqua;
-        left: 10vw;
-        font-family: "Island Moments", cursive;
-        font-weight: 400;
-        font-style: normal;
-    }
-    #welcome>section:first-child>h4{
-        display: flex;
-        position: absolute;
-        top: 30vh;
-        font-size: 30px;
-        color: white;
-        left: 15vw;
-    }
-    #welcome>section:first-child>span {
-        display: flex;
-        position: absolute;
-        top:37vh;
-        font-size: 30px;
-        color: aqua;
-        left: 15vw;
-        font-family: "Fredericka the Great", serif;
-        font-weight: 400;
-        font-style: normal;
-    }
-    #welcome>section:first-child>h3{
-        display: flex;
-        position: absolute;
-        top: 45vh;
-        font-size: 20px;
-        color: white;
-        left: 15vw;
-    }
-    #welcome>section:nth-child(2){
-        width: 500px;
-        height:500px;
-        border-radius: 100%;
-        margin: -40px;
-        box-shadow: 5px 5px 40px aqua;
-    }
-    /*#welcome>section:nth-child(2)>img{*/
-    /*    width: 700px;*/
-    /*    right: 8px;*/
-    /*    top: -150px;*/
-    /*    position: absolute;*/
-    /*}*/
-    #welcome>section:nth-child(3)>div{
-        width: 50px;
-        height: 50px;
-        position: absolute;
-        top: 343px;
-        border-radius: 100%;
-        background-color: black;
-        border: 3px solid aqua;
-        /*box-shadow: 10px 5px 50px aqua;*/
-        left: 14vw;
-    }
-    #welcome>section:nth-child(3)>div:hover{
-        width: 50px;
-        height: 50px;
-        position: absolute;
-        top: 360px;
-        border-radius: 100%;
-        background-color: aqua;
-        box-shadow: 10px 5px 50px aqua;
-        left: 15vw;
-    }
-    #welcome>section:nth-child(3)>div>img{
-        width: 40px;
-        height: 40px;
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        margin: auto;
-    }
-    #welcome>section:nth-child(3)>div:nth-child(2){
-        left: 21vw;
-    }
-    #welcome>section:nth-child(3)>div:nth-child(3){
-        left: 28vw;
-    }
-    #welcome>section:nth-child(3)>div:nth-child(4){
-        left: 35vw;
-    }
-    #welcome>section:nth-child(3)>div:nth-child(5){
-        left: 42vw;
-    }
-    #welcome>section.img>div:nth-child(2){
-        position: absolute;
-        width: 200px;
-        height: 300px;
-        border: 10px solid white;
-        top: 140px;
-        right: 55px;
-        background: black;
-    }
-    #welcome>section.img>div:first-child{
-        position: absolute;
-        width: 359px;
-        height: 367px;
-        border-radius: 100%;
-        background: linear-gradient(120deg, #001a80,white);
-        filter: blur(80px);
-        right: -75px;
-        margin-top: 86px;
-    }
-    #welcome>section.img>img{
-        width: 275px;
-        margin-left: 7px;
-        position: absolute;
-        bottom: 69px;
-    }
-}
-
 /*media query for laptop 1440px*/
 @media all and (max-width: 1440px){
     #welcome{
         display: flex;
         position: relative;
         background-color: black;
-        width: 1440px;
+        /*width: 1440px;*/
         height: 700px;
     }
     #welcome>section:first-child>h1{
@@ -342,7 +210,7 @@
         width: 700px;
         height:700px;
         border-radius: 100%;
-        margin: -30px;
+        margin: -55px;
         box-shadow: 5px 5px 40px aqua;
     }
     #welcome>section:nth-child(2)>img{
@@ -404,7 +272,7 @@
         height: 500px;
         border: 10px solid white;
         top: 140px;
-        right: 150px;
+        right: 236px;
         background: black;
     }
     #welcome>section.img>div:first-child{
@@ -414,7 +282,7 @@
         border-radius: 100%;
         background: linear-gradient(120deg, #001a80,white);
         filter: blur(80px);
-        right: 20px;
+        right: 136px;
         margin-top: 86px;
     }
     #welcome>section.img>img{
@@ -430,7 +298,7 @@
         display: flex;
         position: relative;
         background-color: black;
-        width: 1024px;
+        /*width: 1024px;*/
         height: 700px;
     }
     #welcome>section:first-child>h1{
@@ -564,4 +432,139 @@
         bottom: 69px;
     }
 }
+
+/*media query for tablet*/
+@media all and (max-width: 768px){
+    #welcome {
+        /*display: flex;*/
+        /*position: relative;*/
+        /*background-color: black;*/
+        /*width: 768px;*/
+        height: 642px;
+    }
+    #welcome>section:first-child>h1 {
+        /*display: flex;*/
+        /*position: absolute;*/
+        top: 11vh;
+        /*text-align: center;*/
+        /*align-items: center;*/
+        font-size: 70px;
+        /*color: aqua;*/
+        left: 10vw;
+        /*font-family: "Island Moments", cursive;*/
+        /*font-weight: 400;*/
+        /*font-style: normal;*/
+    }
+    #welcome>section:first-child>h4{
+        /*display: flex;*/
+        /*position: absolute;*/
+        top: 30vh;
+        font-size: 30px;
+        /*color: white;*/
+        left: 15vw;
+    }
+    #welcome>section:first-child>span {
+        /*display: flex;*/
+        /*position: absolute;*/
+        top:37vh;
+        font-size: 30px;
+        /*color: aqua;*/
+        left: 15vw;
+        /*font-family: "Fredericka the Great", serif;*/
+        /*font-weight: 400;*/
+        /*font-style: normal;*/
+    }
+    #welcome>section:first-child>h3{
+        /*display: flex;*/
+        /*position: absolute;*/
+        top: 45vh;
+        font-size: 20px;
+        /*color: white;*/
+        left: 15vw;
+    }
+    #welcome>section:nth-child(2){
+        width: 500px;
+        height:500px;
+        border-radius: 100%;
+        margin: -40px;
+        box-shadow: 5px 5px 40px aqua;
+    }
+    /*#welcome>section:nth-child(2)>img{*/
+    /*    width: 700px;*/
+    /*    right: 8px;*/
+    /*    top: -150px;*/
+    /*    position: absolute;*/
+    /*}*/
+    #welcome>section:nth-child(3)>div{
+        width: 50px;
+        height: 50px;
+        /*position: absolute;*/
+        top: 343px;
+        border-radius: 100%;
+        /*background-color: black;*/
+        border: 3px solid aqua;
+        /*box-shadow: 10px 5px 50px aqua;*/
+        left: 14vw;
+    }
+    #welcome>section:nth-child(3)>div:hover{
+        width: 50px;
+        height: 50px;
+        /*position: absolute;*/
+        top: 360px;
+        border-radius: 100%;
+        /*background-color: aqua;*/
+        box-shadow: 10px 5px 50px aqua;
+        left: 15vw;
+    }
+    #welcome>section:nth-child(3)>div>img{
+        width: 40px;
+        height: 40px;
+        /*position: absolute;*/
+        /*top: 0;*/
+        /*left: 0;*/
+        /*right: 0;*/
+        /*bottom: 0;*/
+        /*margin: auto;*/
+    }
+    #welcome>section:nth-child(3)>div:nth-child(2){
+        left: 21vw;
+    }
+    #welcome>section:nth-child(3)>div:nth-child(3){
+        left: 28vw;
+    }
+    #welcome>section:nth-child(3)>div:nth-child(4){
+        left: 35vw;
+    }
+    #welcome>section:nth-child(3)>div:nth-child(5){
+        left: 42vw;
+    }
+    #welcome>section.img>div:nth-child(2){
+        /*position: absolute;*/
+        width: 200px;
+        height: 300px;
+        border: 10px solid white;
+        top: 140px;
+        right: 55px;
+        /*background: black;*/
+    }
+    #welcome>section.img>div:first-child{
+        /*position: absolute;*/
+        width: 359px;
+        height: 367px;
+        border-radius: 100%;
+        /*background: linear-gradient(120deg, #001a80,white);*/
+        /*filter: blur(80px);*/
+        right: -75px;
+        margin-top: 86px;
+    }
+    #welcome>section.img>img{
+        width: 275px;
+        margin-left: 7px;
+        /*position: absolute;*/
+        bottom: 69px;
+    }
+}
+
+
+
 
