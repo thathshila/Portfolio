@@ -160,7 +160,7 @@
         border-radius: 100%;
         background-color:white;
         margin-top: 200px;
-        margin-left: -144px;
+        margin-left: -75px;
         position: relative;
         box-shadow: 0 0 50px #00ffff;
     }
@@ -198,7 +198,7 @@
         border-radius: 100%;
         background-color:white;
         margin-top: 148px;
-        margin-left: -144px;
+        margin-left: -75px;
         position: relative;
         box-shadow: 0 0 50px #00ffff;
     }
@@ -263,7 +263,7 @@
         height: 3px;
         position: absolute;
         background-color: #00ffff;
-        left: 403px;
+        left: 400px;
         margin-top: 85px;
     }
 
@@ -277,6 +277,7 @@
         border-radius: 100%;
         background-color:white;
         margin-top: 200px;
+        margin-left: 0;
         position: relative;
         box-shadow: 0 0 40px #00ffff;
     }
@@ -310,6 +311,7 @@
         border-radius: 100%;
         background-color:white;
         margin-top: 140px;
+        margin-left: 0;
         position: relative;
         box-shadow: 0 0 40px #00ffff;
     }

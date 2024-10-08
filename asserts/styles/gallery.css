@@ -207,7 +207,7 @@
     #gallery > section:first-child > h2.g1 {
         font-size: 45px;
         position: absolute;
-        left: 376px;
+        left: 370px;
         margin-top: 50px;
         color: #00ffff;
         font-family: "Kameron", serif;
@@ -235,5 +235,15 @@
         background-color: #00ffff;
         left: 403px;
         margin-top: 85px;
+    }
+    #gallery>section:nth-child(2){
+        width: 60vw;
+        height: 60vh;
+        border: 3px solid aqua;
+        overflow: hidden;
+        position: relative;
+        margin: auto;
+        top: 175px;
+        left: 9px;
     }
 }

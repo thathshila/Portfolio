@@ -345,7 +345,7 @@ body {
         position: absolute;
         background-color: #00ffff;
         left: 662px;
-        margin-top: 85px;
+        margin-top: 95px;
     }
     .card-area{
         padding: 22rem;
@@ -387,8 +387,11 @@ body {
         height: 3px;
         position: absolute;
         background-color: #00ffff;
-        left: 403px;
-        margin-top: 95px;
+        left: 392px;
+        margin-top: 85px;
+    }
+    .card-area{
+        padding: 4rem;
     }
 }
 
