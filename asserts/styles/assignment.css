@@ -221,6 +221,33 @@
         max-width: 100%;
     }
 }
+
+@media all and (max-width: 1024px){
+    #assignment{
+        margin: 0;
+    }
+    #assignment>.a1{
+        left: 435px;
+        margin-top: 50px;
+    }
+    #assignment>.a2{
+        left: 485px;
+        margin-top: 72px;
+    }
+    #assignment>.a3{
+        width: 220px;
+        height: 3px;
+        left: 487px;
+        margin-top: 105px;
+    }
+    .wrapper {
+        width: 700px;
+        margin-top: 203px;
+        margin-left: 195px;
+        max-width: 100%;
+    }
+}
+
 /*media query for tablet*/
 @media all and (max-width: 768px){
 
