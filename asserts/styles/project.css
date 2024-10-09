@@ -350,6 +350,24 @@ body {
     }
 }
 
+@media all and (max-width: 1024px) {
+    #topic>h2.p1{
+        left: 495px;
+    }
+    #topic>h2.p2{
+        left: 540px;
+    }
+    #topic>div{
+        width: 200px;
+        height: 3px;
+        left: 520px;
+        margin-top: 95px;
+    }
+    .card-area{
+        padding: 10rem;
+    }
+}
+
 /*media query for tablet*/
 @media all and (max-width: 768px){
     #project{
