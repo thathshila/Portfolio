@@ -159,135 +159,46 @@
 
 @media all and (max-width: 1024px){
     #welcome{
-        display: flex;
-        position: relative;
-        background-color: black;
-        /*width: 1024px;*/
+        width: 1024px;
         height: 700px;
     }
     #welcome>section:first-child>h1{
-        display: flex;
-        position: absolute;
-        top: 14vh;
-        text-align: center;
-        align-items: center;
-        font-size: 100px;
-        color: aqua;
-        left: 10vw;
-        animation-iteration-count: infinite;
-        /*border: 5px solid white;*/
-    }
-    #welcome>section:first-child>h1 {
-        font-family: "Island Moments", cursive;
-        font-weight: 400;
-        font-style: normal;
-    }
-    #welcome>section:first-child>h4{
-        display: flex;
-        position: absolute;
-        top: 35vh;
-        font-size: 40px;
-        color: white;
-        left: 15vw;
-    }
-    #welcome>section:first-child>h3{
-        display: flex;
-        position: absolute;
-        top: 55vh;
-        font-size: 20px;
-        color: white;
-        left: 15vw;
+        font-size: 90px;
     }
     #welcome>section:first-child>span{
-        display: flex;
-        position: absolute;
-        top: 45vh;
-        font-size: 40px;
-        color: aqua;
-        left: 15vw;
-        font-family: "Fredericka the Great", serif;
-        font-weight: 400;
-        font-style: normal;
-        animation-iteration-count: infinite;
+        font-size: 37px;
     }
     #welcome>section:nth-child(2){
-        width: 700px;
-        height:700px;
-        border-radius: 100%;
-        margin: -30px;
-        box-shadow: 5px 5px 40px aqua;
+        margin: -104px;
     }
     #welcome>section:nth-child(2)>img{
         width: 700px;
         right: 8px;
         top: -150px;
-        position: absolute;
-        /*border: 5px solid aqua;*/
-        /*border-radius: 100%;*/
     }
 
-    #welcome>section:nth-child(3)>div{
-        width: 60px;
-        height: 60px;
-        position: absolute;
-        top: 440px;
-        border-radius: 100%;
-        background-color: black;
-        border: 3px solid aqua;
-        /*box-shadow: 10px 5px 50px aqua;*/
-        left: 15vw;
-    }
-    #welcome>section:nth-child(3)>div:hover{
-        width: 60px;
-        height: 60px;
-        position: absolute;
-        top: 400px;
-        border-radius: 100%;
-        background-color: aqua;
-        box-shadow: 10px 5px 50px aqua;
-        left: 15vw;
-    }
-    #welcome>section:nth-child(3)>div>img{
-        width: 50px;
-        height: 50px;
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        margin: auto;
-    }
     #welcome>section:nth-child(3)>div:nth-child(2){
-        left: 20vw;
+        left: 21vw;
     }
     #welcome>section:nth-child(3)>div:nth-child(3){
-        left: 25vw;
+        left: 27vw;
     }
     #welcome>section:nth-child(3)>div:nth-child(4){
-        left: 30vw;
+        left: 33vw;
     }
     #welcome>section:nth-child(3)>div:nth-child(5){
-        left: 35vw;
+        left: 39vw;
     }
 
     #welcome>section.img>div:nth-child(2){
-        position: absolute;
-        width: 370px;
-        height: 500px;
-        border: 10px solid white;
-        top: 140px;
-        right: 150px;
-        background: black;
+        width: 327px;
+        height: 446px;
+        right: 38px;
     }
     #welcome>section.img>div:first-child{
-        position: absolute;
-        width: 580px;
-        height: 580px;
-        border-radius: 100%;
-        background: linear-gradient(120deg, #001a80,white);
-        filter: blur(80px);
-        right: 20px;
-        margin-top: 86px;
+        width: 370px;
+        height: 510px;
+        right: -4px;
     }
     #welcome>section.img>img{
         width: 485px;
