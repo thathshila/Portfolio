@@ -190,6 +190,50 @@
     }
 }
 
+@media all and (max-width: 1024px){
+    #education{
+        width: 1024px;
+    }
+    #education>section:first-child>h2.e1{
+        left:475px;
+    }
+    #education>section:first-child>h2.e2{
+        left: 520px;
+    }
+    #education>section:nth-child(1)>div{
+        width: 257px;
+        left: 518px;
+    }
+    #education>section:nth-child(2)>div:first-child{
+        width: 2px;
+        height: 500px;
+        background: white;
+        margin-left: calc(100vw/2);
+        position: absolute;
+        margin-top: 130px;
+    }
+    #education>section:nth-child(3)>section:first-child{
+        margin-top: 128px;
+        left: 567px;
+    }
+    #education>section:nth-child(3)>section:nth-child(2){
+        left: 97px;
+    }
+    #education>section:nth-child(3)>section:nth-child(3){
+        left: 567px;
+    }
+    #education>section:nth-child(3)>section:first-child>p{
+        font-size: 20px;
+        margin-top: 20px;
+        margin-left: 28px;
+        color: white;
+        font-family: "Lora", serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+    }
+}
+
 /*media query for tablet*/
 @media all and (max-width: 768px){
     #education{
