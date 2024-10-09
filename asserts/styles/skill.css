@@ -147,6 +147,43 @@
     }
 }
 
+@media all and (max-width: 1024px) {
+    #skill{
+        width: 1024px;
+    }
+    #skill>section:first-child>h2.skill1{
+        left: 645px;
+    }
+    #skill>section:first-child>h2.skill2{
+        left: 685px;
+    }
+    #skill>section:first-child>div{
+        width: 300px;
+        height: 5px;
+        position: absolute;
+        background-color: #00ffff;
+        left: 682px;
+        margin-top: 90px;
+    }
+    #skill>section:nth-child(2)>div{
+        margin-left: -75px;
+    }
+    #skill>section:nth-child(3)>div{
+        margin-top: 148px;
+        margin-left: -75px;
+    }
+    #skill>section:nth-child(3)>div>img{
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+        width: 100px;
+        height: 100px;
+    }
+}
+
 /*media query for tablet*/
 @media all and (max-width: 768px){
     #skill{
@@ -154,10 +191,12 @@
         height: 642px;
     }
     #skill>section:first-child>h2.skill1{
+        font-size: 45px;
         left: 376px;
         margin-top: 50px;
     }
     #skill>section:first-child>h2.skill2{
+        font-size: 25px;
         left: 402px;
         margin-top: 60px;
     }
