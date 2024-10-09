@@ -117,6 +117,26 @@
     }
 }
 
+@media all and (max-width: 1024px){
+    #gallery{
+        width: 1024px;
+    }
+    #gallery>section:first-child>h2.g1{
+        left:474px;
+        margin-top: 57px;
+    }
+    #gallery>section:first-child>h2.g2{
+        left: 528px;
+        margin-top: 76px;
+    }
+    #gallery>section:nth-child(1)>div{
+        left: 522px;
+        margin-top: 110px;
+    }
+    #gallery>section:nth-child(2){
+        left: 50px;
+    }
+}
 
 /*media query for tablet*/
 @media all and (max-width: 768px) {
