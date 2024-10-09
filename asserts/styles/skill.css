@@ -152,104 +152,46 @@
     #skill{
         width: 768px;
         height: 642px;
-        /*background-color: black;*/
-        background: #0e2945;
-        position: relative;
     }
     #skill>section:first-child>h2.skill1{
-        font-size: 45px;
-        position: absolute;
         left: 376px;
         margin-top: 50px;
-        color: #00ffff;
-        font-family:"Kameron", serif;
-        font-optical-sizing: auto;
-        font-weight: 400;
-        font-style: normal;
     }
     #skill>section:first-child>h2.skill2{
-        font-size:25px;
-        position: absolute;
         left: 402px;
         margin-top: 60px;
-        color: white;
-        font-family:"Kameron", serif;
-        font-optical-sizing: auto;
-        font-weight: 400;
-        font-style: normal;
     }
     #skill>section:first-child>div{
         width: 200px;
         height: 3px;
-        position: absolute;
-        background-color: #00ffff;
         left: 400px;
         margin-top: 85px;
-    }
-
-    #skill>section:nth-child(2){
-        display: flex;
-        justify-content: space-evenly;
     }
     #skill>section:nth-child(2)>div{
         width: 120px;
         height: 120px;
-        border-radius: 100%;
-        background-color:white;
         margin-top: 200px;
         margin-left: 0;
-        position: relative;
-        box-shadow: 0 0 40px #00ffff;
     }
     #skill>section:nth-child(2)>div>h4{
         font-size:20px;
-        color: white;
         margin-top: -45px;
-        font-family: "Gowun Batang", serif;
-        font-weight: 400;
-        font-style: normal;
     }
     #skill>section:nth-child(2)>div>img{
-        position: absolute;
-        top: 0;
-        left: 0;
-        bottom: 0;
-        right: 0;
-        margin: auto;
         width: 80px;
         height: 80px;
-    }
-
-    #skill>section:nth-child(3){
-        display: flex;
-        justify-content: space-evenly;
     }
     #skill>section:nth-child(3)>div{
         width: 120px;
         height: 120px;
-        /*padding: 10px;*/
-        border-radius: 100%;
-        background-color:white;
         margin-top: 140px;
         margin-left: 0;
-        position: relative;
-        box-shadow: 0 0 40px #00ffff;
     }
     #skill>section:nth-child(3)>div>h4{
         font-size: 20px;
-        color: white;
         margin-top: -45px;
-        font-family: "Gowun Batang", serif;
-        font-weight: 400;
-        font-style: normal;
     }
     #skill>section:nth-child(3)>div>img{
-        position: absolute;
-        top: 0;
-        left: 0;
-        bottom: 0;
-        right: 0;
-        margin: auto;
         width: 80px;
         height: 80px;
     }

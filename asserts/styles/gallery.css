@@ -120,55 +120,27 @@
 
 /*media query for tablet*/
 @media all and (max-width: 768px) {
-
     #gallery {
         width: 768px;
         height: 642px;
-        /*background-color: black;*/
-        background: #0e2945;
-        position: relative;
     }
-
     #gallery > section:first-child > h2.g1 {
         font-size: 45px;
-        position: absolute;
         left: 370px;
         margin-top: 50px;
-        color: #00ffff;
-        font-family: "Kameron", serif;
-        font-optical-sizing: auto;
-        font-weight: 400;
-        font-style: normal;
     }
-
     #gallery > section:first-child > h2.g2 {
         font-size: 25px;
-        position: absolute;
         left: 402px;
         margin-top: 60px;
-        color: white;
-        font-family: "Kameron", serif;
-        font-optical-sizing: auto;
-        font-weight: 400;
-        font-style: normal;
     }
-
     #gallery > section:first-child > div {
         width: 200px;
         height: 3px;
-        position: absolute;
-        background-color: #00ffff;
         left: 403px;
         margin-top: 85px;
     }
     #gallery>section:nth-child(2){
-        width: 60vw;
-        height: 60vh;
-        border: 3px solid aqua;
-        overflow: hidden;
-        position: relative;
-        margin: auto;
-        top: 175px;
         left: 9px;
     }
 }

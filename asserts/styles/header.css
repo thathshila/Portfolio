@@ -110,22 +110,13 @@ header>nav>ul>li>a:hover{
 /*Media query for tablet*/
 @media all and (max-width: 768px){
     header{
-        position: fixed;
-        display: inline-block;
         width: 768px;
-        /*background-color: rgb(52, 51, 73);*/
-        background-color: #758694;
         height: 50px;
-        z-index: 9999;
-    }
-    header>section{
-        display: flex;
     }
     header>section>img{
         width: 40px;
         height: 25px;
         top: 5px;
-        position: absolute;
         left: 15px;
     }
     header>nav{
@@ -135,21 +126,10 @@ header>nav>ul>li>a:hover{
         height: fit-content;
     }
     header>nav>ul>li{
-        display: inline-block;
-        right: 0;
         padding-left: 10px;
     }
     header>nav>ul>li>a {
-        text-decoration: none;
         font-size: 12px;
-        color: rgb(255, 255, 255);
-
-        font-family: "Playfair Display SC", serif;
-        font-weight: 400;
-        font-style: normal;
-    }
-    header>nav>ul>li>a:hover{
-        color: cyan;
     }
 }
 
