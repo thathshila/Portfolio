@@ -101,15 +101,9 @@
 
 /*media query for laptop 1440px*/
 @media all and (max-width: 1440px){
-    #about{
-        width: 1440px;
-    }
 }
 
 @media all and (max-width: 1024px){
-    #about{
-        width: 1440px;
-    }
     #about>section:first-child>h2.topic1{
         left:493px;
         font-size: 70px;
@@ -174,7 +168,6 @@
 /*media query for tablet*/
 @media all and (max-width: 768px){
     #about{
-        width: 768px;
         height: 642px;
     }
     #about>section:first-child>h2.topic1{
@@ -230,7 +223,6 @@
 
 @media all and (max-width: 426px) {
     #about{
-        width: 425px;
         height: 400px;
     }
     #about>section:first-child>h2.topic1{

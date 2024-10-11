@@ -143,9 +143,6 @@
 
 /*media query for laptop 1440px*/
 @media all and (max-width: 1440px){
-    #welcome{
-        width: 1440px;
-    }
     #welcome>section:nth-child(2){
         margin: -45px;
     }
@@ -159,7 +156,6 @@
 
 @media all and (max-width: 1024px){
     #welcome{
-        width: 1024px;
         height: 700px;
     }
     #welcome>section:first-child>h1{
@@ -209,9 +205,8 @@
 }
 
 /*media query for tablet*/
-@media all and (max-width: 768px){
+@media all and (max-width: 769px){
     #welcome {
-        width: 768px;
         height: 642px;
     }
     #welcome>section:first-child>h1 {
@@ -294,7 +289,6 @@
 
 @media all and (max-width: 426px){
     #welcome{
-        width: 425px;
         height: 500px;
     }
     #welcome>section:first-child>h1{

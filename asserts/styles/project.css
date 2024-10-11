@@ -71,11 +71,11 @@ body {
     margin-top: .2rem;
 }
 .inside-page__heading--city,
-.card-front__text-view--city { color: #ff62b2; }
+.card-front__text-view--city { color: #00b97c; }
 .inside-page__heading--ski,
-.card-front__text-view--ski { color: #2aaac1; }
+.card-front__text-view--ski { color: #00b97c; }
 .inside-page__heading--beach,
-.card-front__text-view--beach { color: #fa7f67; }
+.card-front__text-view--beach { color: #00b97c; }
 .inside-page__heading--camping,
 .card-front__text-view--camping { color: #00b97c; }
 /* Front cover */
@@ -126,25 +126,25 @@ body {
     z-index: -1;
 }
 .inside-page__btn--city {
-    border-color: #ff40a1;
-    color: #ff40a1;
+    border-color:#00b97c;
+    color: #00b97c;
 }
 .inside-page__btn--city::before {
-    background-color: #ff40a1;
+    background-color: #00b97c;
 }
 .inside-page__btn--ski {
-    border-color: #279eb2;
-    color: #279eb2;
+    border-color: #00b97c;
+    color: #00b97c;
 }
 .inside-page__btn--ski::before {
-    background-color: #279eb2;
+    background-color: #00b97c;
 }
 .inside-page__btn--beach {
-    border-color: #fa7f67;
-    color: #fa7f67;
+    border-color:#00b97c;
+    color: #00b97c;
 }
 .inside-page__btn--beach::before {
-    background-color: #fa7f67;
+    background-color:#00b97c;
 }
 .inside-page__btn--camping {
     border-color: #00b97d;
@@ -251,22 +251,22 @@ body {
 .card-front__tp--city {
     background: linear-gradient(
             to bottom,
-            #ff73b9,
-            #ff40a1
+            #00b97c,
+            #00b97c
     );
 }
 .card-front__tp--ski {
     background: linear-gradient(
             to bottom,
-            #47c2d7,
-            #279eb2
+            #00b97c,
+            #00b97c
     );
 }
 .card-front__tp--beach {
     background: linear-gradient(
             to bottom,
-            #fb9b88,
-            #f86647
+            #00b97c,
+            #00b97c
     );
 }
 .card-front__tp--camping {
@@ -371,7 +371,6 @@ body {
 /*media query for tablet*/
 @media all and (max-width: 768px){
     #project{
-        width: 768px;
         height: 642px;
     }
     #topic>h2.p1{
@@ -395,3 +394,27 @@ body {
     }
 }
 
+@media all and (max-width: 426px){
+    #project{
+        height: 500px;
+    }
+    #topic>h2.p1{
+        font-size: 45px;
+        left: 145px;
+        margin-top: 50px;
+    }
+    #topic>h2.p2{
+        font-size: 25px;
+        left: 175px;
+        margin-top: 57px;
+    }
+    #topic>div{
+        width: 200px;
+        height: 3px;
+        left: 162px;
+        margin-top: 85px;
+    }
+    .card-area{
+        padding: 4rem;
+    }
+}

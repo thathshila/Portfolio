@@ -97,9 +97,6 @@
 
 /*media query for laptop 1440px*/
 @media all and (max-width: 1440px){
-    #gallery{
-        width: 1440px;
-    }
     #gallery>section:first-child>h2.g1{
         left:599px;
         margin-top: 57px;
@@ -118,9 +115,6 @@
 }
 
 @media all and (max-width: 1024px){
-    #gallery{
-        width: 1024px;
-    }
     #gallery>section:first-child>h2.g1{
         left:474px;
         margin-top: 57px;
@@ -140,10 +134,6 @@
 
 /*media query for tablet*/
 @media all and (max-width: 768px) {
-    #gallery {
-        width: 768px;
-        height: 642px;
-    }
     #gallery > section:first-child > h2.g1 {
         font-size: 45px;
         left: 370px;
@@ -162,5 +152,27 @@
     }
     #gallery>section:nth-child(2){
         left: 9px;
+    }
+}
+
+@media all and (max-width: 426px){
+    #gallery > section:first-child > h2.g1 {
+        font-size: 45px;
+        left: 155px;
+        margin-top: 50px;
+    }
+    #gallery > section:first-child > h2.g2 {
+        font-size: 25px;
+        left: 190px;
+        margin-top: 60px;
+    }
+    #gallery > section:first-child > div {
+        width: 200px;
+        height: 3px;
+        left: 186px;
+        margin-top: 85px;
+    }
+    #gallery>section:nth-child(2){
+        left: 6px;
     }
 }

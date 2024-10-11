@@ -111,9 +111,6 @@
 
 /*media query for laptop 1440px*/
 @media all and (max-width: 1440px){
-    #skill{
-        width: 1440px;
-    }
     #skill>section:first-child>h2.skill1{
         left: 645px;
     }
@@ -148,9 +145,6 @@
 }
 
 @media all and (max-width: 1024px) {
-    #skill{
-        width: 1024px;
-    }
     #skill>section:first-child>h2.skill1{
         left: 476px;
     }
@@ -185,7 +179,6 @@
 /*media query for tablet*/
 @media all and (max-width: 768px){
     #skill{
-        width: 768px;
         height: 642px;
     }
     #skill>section:first-child>h2.skill1{
@@ -236,8 +229,7 @@
 
 @media all and (max-width: 426px){
     #skill{
-        width: 425px;
-        height: 500px;
+        height: 520px;
     }
     #skill>section:first-child>h2.skill1{
         font-size: 45px;
@@ -286,3 +278,4 @@
         height: 60px;
     }
 }
+

@@ -44,9 +44,6 @@ header>nav>ul>li>a:hover{
 
 /*media query for laptop 1440px*/
 @media all and (max-width: 1440px) {
-    header {
-        width: 1440px;
-    }
     header>section>img{
         left: 35px;
     }
@@ -57,9 +54,6 @@ header>nav>ul>li>a:hover{
 
 /*media query for laptop 1024px*/
 @media all and (max-width: 1024px){
-    header {
-        width: 1024px;
-    }
     header > section > img {
         width: 70px;
         height: 45px;
@@ -78,7 +72,6 @@ header>nav>ul>li>a:hover{
 /*Media query for tablet*/
 @media all and (max-width: 768px){
     header{
-        width: 768px;
         height: 50px;
     }
     header>section>img{
@@ -104,7 +97,6 @@ header>nav>ul>li>a:hover{
 
 @media all and (max-width: 425px) {
     header {
-        width: 425px;
         display: none;
     }
 }

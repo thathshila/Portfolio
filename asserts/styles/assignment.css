@@ -252,7 +252,6 @@
 @media all and (max-width: 768px){
 
     #assignment{
-        width: 768px;
         height: 642px;
         margin:-20px;
         padding: 0;
@@ -319,5 +318,34 @@
         }
     }
 
-
+@media all and (max-width: 426px){
+    #assignment{
+        height: 642px;
+        margin:0;
+        padding: 0;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        /*background: #0e2945;*/
+        background: black;
+        position: relative;
+    }
+    #assignment>.a1{
+        left: 125px;
+        margin-top: 50px;
+    }
+    #assignment>.a2{
+        left: 160px;
+        margin-top:57px;
+    }
+    #assignment>.a3{
+        left: 160px;
+        margin-top: 85px;
+    }
+    .wrapper {
+        width: 350px;
+        margin-top: 150px;
+        margin-left: 60px;
+        max-width: 100%;
+    }
+}
 

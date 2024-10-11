@@ -184,9 +184,6 @@
 
 /*media query for laptop 1440px*/
 @media all and (max-width: 1440px){
-    #contact{
-        width: 1440px;
-    }
     #contact>section:first-child>h2.c1{
         left:590px;
     }
@@ -203,9 +200,6 @@
 }
 
 @media all and (max-width: 1024px){
-    #contact{
-        width: 1024px;
-    }
     #contact>section:first-child>h2.c1{
         left:473px;
     }
@@ -256,13 +250,6 @@
 
 /*media query for tablet*/
 @media all and (max-width: 768px){
-    #contact{
-        width: 768px;
-        height: 642px;
-        background: #0e2945;
-        /*background: black;*/
-        position: relative;
-    }
     #contact>section:first-child>h2.c1{
         font-size: 45px;
         left: 372px;

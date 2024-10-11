@@ -159,9 +159,6 @@
 
 /*media query for laptop 1440px*/
 @media all and (max-width: 1440px){
-    #education{
-        width: 1440px;
-    }
     #education>section:first-child>h2.e1{
         left:562px;
     }
@@ -191,9 +188,6 @@
 }
 
 @media all and (max-width: 1024px){
-    #education{
-        width: 1024px;
-    }
     #education>section:first-child>h2.e1{
         left:475px;
     }
@@ -236,10 +230,6 @@
 
 /*media query for tablet*/
 @media all and (max-width: 768px){
-    #education{
-        width: 768px;
-        height: 642px;
-    }
     #education>section:first-child>h2.e1{
         font-size: 45px;
         left: 376px;
