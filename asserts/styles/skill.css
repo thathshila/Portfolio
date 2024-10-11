@@ -233,3 +233,56 @@
         height: 80px;
     }
 }
+
+@media all and (max-width: 426px){
+    #skill{
+        width: 425px;
+        height: 500px;
+    }
+    #skill>section:first-child>h2.skill1{
+        font-size: 45px;
+        left: 170px;
+        margin-top: 50px;
+    }
+    #skill>section:first-child>h2.skill2{
+        font-size: 25px;
+        left: 197px;
+        margin-top: 60px;
+    }
+    #skill>section:first-child>div{
+        width: 200px;
+        height: 3px;
+        left: 195px;
+        margin-top: 85px;
+    }
+    #skill>section:nth-child(2)>div{
+        width: 80px;
+        height: 80px;
+        margin-top: 200px;
+        margin-left: 0;
+        box-shadow: 0 0 20px #00ffff;
+    }
+    #skill>section:nth-child(2)>div>h4{
+        font-size:18px;
+        margin-top: -45px;
+    }
+    #skill>section:nth-child(2)>div>img{
+        width: 60px;
+        height: 60px;
+    }
+    #skill>section:nth-child(3)>div{
+        width: 80px;
+        height: 80px;
+        margin-top: 110px;
+        margin-left: 0;
+        box-shadow: 0 0 20px #00ffff;
+    }
+    #skill>section:nth-child(3)>div>h4{
+        font-size: 18px;
+        margin-top: -45px;
+    }
+    #skill>section:nth-child(3)>div>img{
+        width: 60px;
+        height: 60px;
+    }
+}
