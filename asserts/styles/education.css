@@ -295,3 +295,90 @@
         font-size: 15px;
     }
 }
+
+@media all and (max-width: 426px){
+    #education>section:first-child>h2.e1{
+        font-size: 45px;
+        left: 155px;
+        margin-top: 50px;
+    }
+    #education>section:first-child>h2.e2{
+        font-size: 25px;
+        left: 184px;
+        margin-top: 60px;
+    }
+    #education>section:nth-child(1)>div {
+        width: 200px;
+        height: 3px;
+        left: 182px;
+        margin-top: 85px;
+    }
+
+    #education>section:nth-child(2)>div:first-child{
+        width: 2px;
+        height: 500px;
+        margin-left: calc(425px/2);
+        margin-top: 120px;
+    }
+    #education>section:nth-child(2)>div:first-child>div{
+        width: 16px;
+        height: 16px;
+    }
+    #education>section:nth-child(2)>div:first-child>div:first-child{
+        margin-top:10px;
+        left: 5px;
+    }
+    #education>section:nth-child(2)>div:first-child>div:nth-child(2){
+        margin-top: 230px;
+        right: 5px;
+    }
+    #education>section:nth-child(2)>div:first-child>div:nth-child(3){
+        margin-top: 450px;
+        left: 5px;
+    }
+
+    #education>section:nth-child(3)>section{
+        width:190px;
+        height: 109px;
+    }
+    #education>section:nth-child(3)>section:first-child{
+        margin-top:151px;
+        left: 230px;
+    }
+    #education>section:nth-child(3)>section:nth-child(2){
+        margin-top: 385px;
+        left: 20px;
+    }
+    #education>section:nth-child(3)>section:nth-child(3){
+        margin-top:480px;
+        left: 230px;
+    }
+
+    #education>section:nth-child(3)>section:nth-child(2)>h4{
+        font-size: 20px;
+        margin-top: 20px;
+        margin-left: 121px;
+    }
+    #education>section:nth-child(3)>section:nth-child(3)>h4{
+        font-size: 20px;
+        margin-top: 20px;
+        margin-left: 121px;
+    }
+    #education>section:nth-child(3)>section:first-child>h4{
+        font-size: 20px;
+        margin-top: 10px;
+        margin-left: 100px;
+    }
+
+    #education>section:nth-child(3)>section:first-child>p{
+        font-size: 12px;
+        margin-top: 10px;
+    }
+    #education>section:nth-child(3)>section:nth-child(2)>p{
+        font-size: 12px;
+        margin-top: 10px;
+    }
+    #education>section:nth-child(3)>section:nth-child(3)>p{
+        font-size: 12px;
+    }
+}
