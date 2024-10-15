@@ -354,7 +354,74 @@
     #welcome>section.img>div:first-child{
        display: none;
     }
-
 }
 
+@media all and (max-width: 376px){
+    #welcome{
+        height: 500px;
+    }
+    #welcome>section:first-child>h1{
+        top: 11vh;
+        font-size: 55px;
+        left: 10vw;
+    }
+    #welcome>section:first-child>h4{
+        top: 30vh;
+        font-size: 28px;
+        left: 15vw;
+    }
+    #welcome>section:first-child>span {
+        top:37vh;
+        font-size: 28px;
+        left: 15vw;
+    }
+    #welcome>section:first-child>h3{
+        top: 45vh;
+        font-size: 18px;
+        left: 15vw;
+    }
+    #welcome>section:nth-child(2){
+        width: 500px;
+        height:500px;
+        border-radius: 100%;
+        margin: -100px;
+        box-shadow: 5px 5px 40px aqua;
+    }
+    #welcome>section:nth-child(3)>div{
+        width: 40px;
+        height: 40px;
+        top: 325px;
+        border-radius: 100%;
+        border: 3px solid aqua;
+        left: 14vw;
+    }
+    #welcome>section:nth-child(3)>div:hover{
+        width: 40px;
+        height: 40px;
+        top: 325px;
+        left: 15vw;
+    }
+    #welcome>section:nth-child(3)>div>img{
+        width: 35px;
+        height: 35px;
+    }
+    #welcome>section:nth-child(3)>div:nth-child(2){
+        left: 25vw;
+    }
+    #welcome>section:nth-child(3)>div:nth-child(3){
+        left: 36vw;
+    }
+    #welcome>section:nth-child(3)>div:nth-child(4){
+        left: 47vw;
+    }
+    #welcome>section:nth-child(3)>div:nth-child(5){
+        left: 58vw;
+    }
+    #welcome>section.img>div:nth-child(2){
+        display: none;
+    }
+    #welcome>section.img>div:first-child{
+        display: none;
+    }
+}
 
