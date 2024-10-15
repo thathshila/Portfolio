@@ -176,3 +176,25 @@
         left: 6px;
     }
 }
+
+@media all and (max-width: 376px){
+    #gallery > section:first-child > h2.g1 {
+        font-size: 45px;
+        left: 115px;
+        margin-top: 50px;
+    }
+    #gallery > section:first-child > h2.g2 {
+        font-size: 25px;
+        left: 150px;
+        margin-top: 60px;
+    }
+    #gallery > section:first-child > div {
+        width: 170px;
+        height: 3px;
+        left: 147px;
+        margin-top: 85px;
+    }
+    #gallery>section:nth-child(2){
+        left: 6px;
+    }
+}
