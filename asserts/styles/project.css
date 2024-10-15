@@ -443,3 +443,28 @@ body {
         padding: 4rem;
     }
 }
+
+@media all and (max-width: 320px){
+    #project{
+        height: 500px;
+    }
+    #topic>h2.p1{
+        font-size: 45px;
+        left: 75px;
+        margin-top: 50px;
+    }
+    #topic>h2.p2{
+        font-size: 25px;
+        left: 103px;
+        margin-top: 57px;
+    }
+    #topic>div{
+        width: 145px;
+        height: 3px;
+        left: 90px;
+        margin-top: 86px;
+    }
+    .card-area{
+        padding: 4rem;
+    }
+}
