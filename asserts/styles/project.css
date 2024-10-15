@@ -418,3 +418,28 @@ body {
         padding: 4rem;
     }
 }
+
+@media all and (max-width: 376px){
+    #project{
+        height: 500px;
+    }
+    #topic>h2.p1{
+        font-size: 45px;
+        left: 145px;
+        margin-top: 50px;
+    }
+    #topic>h2.p2{
+        font-size: 25px;
+        left: 172px;
+        margin-top: 57px;
+    }
+    #topic>div{
+        width: 170px;
+        height: 3px;
+        left: 160px;
+        margin-top: 86px;
+    }
+    .card-area{
+        padding: 4rem;
+    }
+}
