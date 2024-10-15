@@ -94,8 +94,7 @@ header>nav>ul>li>a:hover{
     }
 }
 
-
-@media all and (max-width: 425px) {
+@media all and (max-width: 426px) {
     header {
         display: none;
     }
