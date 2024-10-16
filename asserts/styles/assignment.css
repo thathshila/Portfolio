@@ -229,6 +229,7 @@
 @media all and (max-width: 1024px){
     #assignment{
         margin: 0;
+        height: 650px;
     }
     #assignment>.a1{
         left: 435px;
