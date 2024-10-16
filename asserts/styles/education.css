@@ -9,8 +9,8 @@
     font-size: 70px;
     color: #00ffff;
     position: absolute;
-    left:750px;
-    margin-top: 40px;
+    left:450px;
+    margin-top: 60px;
     font-family:"Kameron", serif;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -19,21 +19,21 @@
 #education>section:first-child>h2.e2{
     color: white;
     position: absolute;
-    left: 800px;
+    left: 490px;
     font-size: 30px;
-    margin-top: 60px;
+    margin-top: 80px;
     font-family:"Kameron", serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
 }
 #education>section:nth-child(1)>div{
-    width: 300px;
+    width: 280px;
     height: 5px;
     position: absolute;
     background-color: #00ffff;
-    left: 792px;
-    margin-top: 90px;
+    left: 490px;
+    margin-top: 110px;
 }
 
 #education>section:nth-child(2){
