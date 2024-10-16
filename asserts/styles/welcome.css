@@ -65,12 +65,6 @@
     margin: -30px;
     box-shadow: 5px 5px 40px aqua;
 }
-#welcome>section:nth-child(2)>img{
-    width: 700px;
-    right: 8px;
-    top: -150px;
-    position: absolute;
-}
 
 #welcome>section:nth-child(3)>div{
     width: 60px;
@@ -115,39 +109,58 @@
     left: 35vw;
 }
 
-#welcome>section.img>div:nth-child(2){
-    position: absolute;
-    width: 370px;
-    height: 500px;
-    border: 10px solid white;
-    top: 140px;
-    right: 150px;
-    background: black;
-}
-#welcome>section.img>div:first-child{
-    position: absolute;
-    width: 580px;
-    height: 580px;
-    border-radius: 100%;
-    background: linear-gradient(120deg, #001a80,white);
-    filter: blur(80px);
-    right: 20px;
-    margin-top: 86px;
-}
-#welcome>section.img>img{
-    width: 485px;
-    margin-left: 280px;
-    position: absolute;
-    bottom: 69px;
-}
 
+.img>div:nth-child(2){
+    width: 550px;
+    aspect-ratio: 1/1;
+    border-radius: 100%;
+    position: absolute;
+    top: 100px;
+    left: 800px;
+    background-color: rgb(6, 43, 177,0.5); /* Red with 50% transparency */
+}
 .img>img{
     width: 600px;
-    height: 600px;
-    border-radius:100%;
-    top: 100px;
+    aspect-ratio: 1/1;
+    border-radius: 100%;
+    position: absolute;
+    top: 73px;
+    left: 800px;
+    animation-iteration-count:infinite;
+    /*animation-name: example-animation;*/
+    /*animation-timing-function: ease-in-out;*/
+    /*animation-duration: 2s;*/
 }
-
+.img>div:nth-child(2):hover{
+    width: 550px;
+    aspect-ratio: 1/1;
+    border-radius: 100%;
+    position: absolute;
+    top: 73px;
+    left: 800px;
+    background-color: rgb(0, 26, 128,0);
+    display: none;
+}
+/*.img>div:first-child{*/
+/*    width: 500px;*/
+/*    height: 500px;*/
+/*    box-shadow: 10px 10px 50px cyan;*/
+/*    border-radius: 100%;*/
+/*    position: absolute;*/
+/*    top: 73px;*/
+/*    left: 800px;*/
+/*}*/
+/*@keyframes example-animation {*/
+/*    0% {*/
+/*        transform: scale(1); !* Initial state *!*/
+/*    }*/
+/*    50% {*/
+/*        transform: scale(1.2); !* Halfway: Increase size *!*/
+/*    }*/
+/*    100% {*/
+/*        transform: scale(1); !* End state: Back to original size *!*/
+/*    }*/
+/*}*/
 /*media query for laptop 1440px*/
 @media all and (max-width: 1440px){
     #welcome{
