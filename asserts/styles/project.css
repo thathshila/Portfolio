@@ -394,30 +394,107 @@ body {
     }
 }
 
-@media all and (max-width: 426px){
-    #project{
+@media all and (max-width: 426px) {
+    #project {
         height: 500px;
     }
-    #topic>h2.p1{
+
+    #topic > h2.p1 {
         font-size: 45px;
         left: 145px;
         margin-top: 50px;
     }
-    #topic>h2.p2{
+
+    #topic > h2.p2 {
         font-size: 25px;
         left: 175px;
         margin-top: 57px;
     }
-    #topic>div{
+
+    #topic > div {
         width: 200px;
         height: 3px;
         left: 162px;
         margin-top: 85px;
     }
-    .card-area{
-        padding: 4rem;
+    html { font-size: 50%; }
+
+    /* Container for cards: grid layout with two rows and two columns */
+    .card-area {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* Two columns */
+        grid-template-rows: repeat(2, 1fr); /* Two rows */
+        gap: 1rem; /* Add some space between the cards */
+        height: 100%;
+        width: 100%;
+        justify-items: center; /* Center the cards within the grid */
+        align-items: center;
+        padding: 9rem;
     }
+.card-section{
+    margin-top: 40px;
 }
+    /* Each card in the grid will be adjusted to fit within the 425px width and 500px height */
+    .card, .flip-card, .inside-page {
+        height: 17rem; /* Increase the height of the cards */
+        width: 17rem; /* Increase the width of the cards */
+    }
+
+    /* The card-front and card-back will also be resized accordingly */
+    .card-front, .card-back {
+        height: 17rem;
+        width: 17rem;
+    }
+
+    /* Adjust the flip-card container */
+    .flip-card__container {
+        height: 100%;
+        width: 100%;
+    }
+
+    /* Front side top section adjustments */
+    .card-front__tp {
+        height: 14rem; /* Adjust height for the larger card */
+        padding: .5rem;
+    }
+
+    /* Adjust the icon and text inside the card front */
+    .card-front__icon {
+        font-size: 2.5vw; /* Adjust the icon size accordingly */
+        height: 3.25rem;
+        width: 3.25rem;
+    }
+
+    .card-front__heading {
+        font-size: 1.5rem; /* Adjust font size for headings */
+    }
+
+    .card-front__text-price {
+        font-size: 1.2rem;
+    }
+
+    .inside-page__heading,
+    .card-front__text-view {
+        font-size: 1.3rem;
+    }
+
+    .inside-page__text {
+        font-size: 1.2rem;
+    }
+
+    .inside-page__btn {
+        font-size: 1.2rem;
+        padding: .5rem .6rem;
+        margin-top: 1.5rem;
+    }
+
+    /* Adjust the padding for the inside page */
+    .inside-page {
+        padding: .8rem;
+    }
+
+}
+
 
 @media all and (max-width: 376px){
     #project{
@@ -439,9 +516,85 @@ body {
         left: 160px;
         margin-top: 86px;
     }
-    .card-area{
-        padding: 4rem;
+    /*.card-area{*/
+    /*    padding: 4rem;*/
+    /*}*/
+    html { font-size: 50%; }
+
+    /* Container for cards: grid layout with two rows and two columns */
+    .card-area {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* Two columns */
+        grid-template-rows: repeat(2, 1fr); /* Two rows */
+        gap: 1rem; /* Add some space between the cards */
+        height: 100%;
+        width: 100%;
+        justify-items: center; /* Center the cards within the grid */
+        align-items: center;
+        padding: 9rem;
     }
+    .card-section{
+        margin-top: 40px;
+    }
+    /* Each card in the grid will be adjusted to fit within the 425px width and 500px height */
+    .card, .flip-card, .inside-page {
+        height: 17rem; /* Increase the height of the cards */
+        width: 17rem; /* Increase the width of the cards */
+    }
+
+    /* The card-front and card-back will also be resized accordingly */
+    .card-front, .card-back {
+        height: 17rem;
+        width: 17rem;
+    }
+
+    /* Adjust the flip-card container */
+    .flip-card__container {
+        height: 100%;
+        width: 100%;
+    }
+
+    /* Front side top section adjustments */
+    .card-front__tp {
+        height: 14rem; /* Adjust height for the larger card */
+        padding: .5rem;
+    }
+
+    /* Adjust the icon and text inside the card front */
+    .card-front__icon {
+        font-size: 2.5vw; /* Adjust the icon size accordingly */
+        height: 3.25rem;
+        width: 3.25rem;
+    }
+
+    .card-front__heading {
+        font-size: 1.5rem; /* Adjust font size for headings */
+    }
+
+    .card-front__text-price {
+        font-size: 1.2rem;
+    }
+
+    .inside-page__heading,
+    .card-front__text-view {
+        font-size: 1.3rem;
+    }
+
+    .inside-page__text {
+        font-size: 1.2rem;
+    }
+
+    .inside-page__btn {
+        font-size: 1.2rem;
+        padding: .5rem .6rem;
+        margin-top: 1.5rem;
+    }
+
+    /* Adjust the padding for the inside page */
+    .inside-page {
+        padding: .8rem;
+    }
+
 }
 
 @media all and (max-width: 320px){
@@ -464,7 +617,83 @@ body {
         left: 90px;
         margin-top: 86px;
     }
-    .card-area{
-        padding: 4rem;
+    /*.card-area{*/
+    /*    padding: 4rem;*/
+    /*}*/
+    html { font-size: 50%; }
+
+    /* Container for cards: grid layout with two rows and two columns */
+    .card-area {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* Two columns */
+        grid-template-rows: repeat(2, 1fr); /* Two rows */
+        gap: 1rem; /* Add some space between the cards */
+        height: 100%;
+        width: 100%;
+        justify-items: center; /* Center the cards within the grid */
+        align-items: center;
+        padding: 9rem;
     }
+    .card-section{
+        margin-top: 40px;
+    }
+    /* Each card in the grid will be adjusted to fit within the 425px width and 500px height */
+    .card, .flip-card, .inside-page {
+        height: 17rem; /* Increase the height of the cards */
+        width: 17rem; /* Increase the width of the cards */
+    }
+
+    /* The card-front and card-back will also be resized accordingly */
+    .card-front, .card-back {
+        height: 17rem;
+        width: 17rem;
+    }
+
+    /* Adjust the flip-card container */
+    .flip-card__container {
+        height: 100%;
+        width: 100%;
+    }
+
+    /* Front side top section adjustments */
+    .card-front__tp {
+        height: 14rem; /* Adjust height for the larger card */
+        padding: .5rem;
+    }
+
+    /* Adjust the icon and text inside the card front */
+    .card-front__icon {
+        font-size: 2.5vw; /* Adjust the icon size accordingly */
+        height: 3.25rem;
+        width: 3.25rem;
+    }
+
+    .card-front__heading {
+        font-size: 1.5rem; /* Adjust font size for headings */
+    }
+
+    .card-front__text-price {
+        font-size: 1.2rem;
+    }
+
+    .inside-page__heading,
+    .card-front__text-view {
+        font-size: 1.3rem;
+    }
+
+    .inside-page__text {
+        font-size: 1.2rem;
+    }
+
+    .inside-page__btn {
+        font-size: 1.2rem;
+        padding: .5rem .6rem;
+        margin-top: 1.5rem;
+    }
+
+    /* Adjust the padding for the inside page */
+    .inside-page {
+        padding: .8rem;
+    }
+
 }
