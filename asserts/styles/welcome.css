@@ -141,6 +141,13 @@
     bottom: 69px;
 }
 
+.img>img{
+    width: 600px;
+    height: 600px;
+    border-radius:100%;
+    top: 100px;
+}
+
 /*media query for laptop 1440px*/
 @media all and (max-width: 1440px){
     #welcome>section:nth-child(2){
