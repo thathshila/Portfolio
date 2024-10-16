@@ -183,6 +183,9 @@
 
 /*media query for laptop 1440px*/
 @media all and (max-width: 1440px){
+    #contact{
+        height: 800px;
+    }
     #contact>section:first-child>h2.c1{
         left:590px;
     }
@@ -193,8 +196,22 @@
         left: 639px;
     }
     #contact>section:nth-child(4){
-        margin-top:143px;
-        right: 287px;
+        margin-top:235px;
+        right: 220px;
+    }
+    #contact>section:nth-child(3){
+        margin-top:470px;
+    }
+    #contact>section:nth-child(5){
+        margin-top:465px;
+        margin-left: 225px;
+    }
+    #contact>section:nth-child(2) {
+        margin-top: 180px;
+    }
+    #contact>img#my{
+        top: 200px;
+        left: 280px;
     }
 }
 
