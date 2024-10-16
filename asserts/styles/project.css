@@ -333,6 +333,9 @@ body {
 
 
 @media all and (max-width: 1440px){
+    #project{
+        height: 800px;
+    }
     #topic>h2.p1{
         left: 636px;
     }
@@ -343,7 +346,7 @@ body {
         width: 200px;
         height: 3px;
         left: 662px;
-        margin-top: 95px;
+        margin-top: 115px;
     }
     .card-area{
         padding: 22rem;
