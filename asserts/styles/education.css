@@ -310,6 +310,9 @@
 }
 
 @media all and (max-width: 426px){
+    #education{
+        height: 700px;
+    }
     #education>section:first-child>h2.e1{
         font-size: 45px;
         left: 155px;
@@ -330,7 +333,7 @@
     #education>section:nth-child(2)>div:first-child{
         width: 2px;
         height: 500px;
-        margin-left: calc(425px/2);
+        margin-left: calc(425px/5);
         margin-top: 120px;
     }
     #education>section:nth-child(2)>div:first-child>div{
@@ -343,7 +346,7 @@
     }
     #education>section:nth-child(2)>div:first-child>div:nth-child(2){
         margin-top: 230px;
-        right: 5px;
+        right: -20px;
     }
     #education>section:nth-child(2)>div:first-child>div:nth-child(3){
         margin-top: 450px;
@@ -355,16 +358,16 @@
         height: 109px;
     }
     #education>section:nth-child(3)>section:first-child{
-        margin-top:151px;
-        left: 230px;
+        margin-top:140px;
+        left: 140px;
     }
     #education>section:nth-child(3)>section:nth-child(2){
-        margin-top: 385px;
-        left: 20px;
+        margin-top: 340px;
+        left: 140px;
     }
     #education>section:nth-child(3)>section:nth-child(3){
-        margin-top:480px;
-        left: 230px;
+        margin-top:540px;
+        left: 140px;
     }
 
     #education>section:nth-child(3)>section:nth-child(2)>h4{
@@ -397,6 +400,9 @@
 }
 
 @media all and (max-width: 376px){
+    #education{
+        height: 690px;
+    }
     #education>section:first-child>h2.e1{
         font-size: 45px;
         left: 115px;
@@ -484,6 +490,9 @@
 }
 
 @media all and (max-width: 320px){
+    #education{
+        height: 690px;
+    }
     #education>section:first-child>h2.e1{
         font-size: 45px;
         left: 82px;
