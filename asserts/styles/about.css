@@ -104,6 +104,9 @@
 
 /*media query for laptop 1440px*/
 @media all and (max-width: 1440px){
+    #about{
+        height: 800px;
+    }
 }
 
 @media all and (max-width: 1024px){
