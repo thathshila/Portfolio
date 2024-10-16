@@ -97,6 +97,9 @@
 
 /*media query for laptop 1440px*/
 @media all and (max-width: 1440px){
+    #gallery{
+        height: 800px;
+    }
     #gallery>section:first-child>h2.g1{
         left:599px;
         margin-top: 57px;
@@ -110,7 +113,8 @@
         margin-top: 110px;
     }
     #gallery>section:nth-child(2){
-        left: -80px;
+        left: 0px;
+        margin-top: 60px;
     }
 }
 
