@@ -200,24 +200,28 @@
 }
 
 @media all and (max-width: 1440px){
+    #assignment{
+        height: 800px;
+        margin: 0;
+    }
     #assignment>.a1{
         left: 632px;
-        margin-top: 50px;
+        margin-top: 70px;
     }
     #assignment>.a2{
         left: 675px;
-        margin-top: 72px;
+        margin-top: 90px;
     }
     #assignment>.a3{
-        width: 200px;
+        width: 230px;
         height: 3px;
         left: 682px;
-        margin-top: 105px;
+        margin-top: 125px;
     }
     .wrapper {
         width: 700px;
-        margin-top: 203px;
-        margin-left: 360px;
+        margin-top: 270px;
+        margin-left: 435px;
         max-width: 100%;
     }
 }
