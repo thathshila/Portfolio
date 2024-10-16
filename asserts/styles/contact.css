@@ -216,6 +216,9 @@
 }
 
 @media all and (max-width: 1024px){
+    #contact{
+        height: 650px;
+    }
     #contact>section:first-child>h2.c1{
         left:473px;
     }
