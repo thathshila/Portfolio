@@ -166,7 +166,7 @@
 
 @media all and (max-width: 1024px){
     #welcome{
-        height: 700px;
+        height: 680px;
     }
     #welcome>section:first-child>h1{
         font-size: 90px;
