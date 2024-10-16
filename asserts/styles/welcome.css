@@ -150,6 +150,9 @@
 
 /*media query for laptop 1440px*/
 @media all and (max-width: 1440px){
+    #welcome{
+        height: 750px;
+    }
     #welcome>section:nth-child(2){
         margin: -45px;
     }
