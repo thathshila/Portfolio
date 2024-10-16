@@ -110,28 +110,31 @@
 }
 
 @media all and (max-width: 1024px){
+    #about{
+        height: 680px;
+    }
     #about>section:first-child>h2.topic1{
         left:493px;
         font-size: 70px;
-        margin-top: 40px;
+        margin-top: 85px;
     }
     #about>section:first-child>h2.topic2{
         left: 539px;
         font-size: 30px;
-        margin-top: 60px;
+        margin-top: 110px;
     }
     #about>section:nth-child(1)>div{
         width: 300px;
         height: 5px;
-        left: 542px;
-        margin-top: 90px;
+        left: 543px;
+        margin-top: 140px;
     }
 
     #about>section:nth-child(2)>div{
         width: 429px;
         height: 201px;
         position: absolute;
-        top: 192px;
+        top: 255px;
         margin-left: 532px;
     }
     #about>section:nth-child(2)>div>p{
