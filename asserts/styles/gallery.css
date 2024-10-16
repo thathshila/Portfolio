@@ -119,6 +119,9 @@
 }
 
 @media all and (max-width: 1024px){
+    #gallery{
+        height: 650px;
+    }
     #gallery>section:first-child>h2.g1{
         left:474px;
         margin-top: 57px;
