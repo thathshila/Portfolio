@@ -197,6 +197,9 @@
 }
 
 @media all and (max-width: 1024px){
+    #education{
+        height: 650px;
+    }
     #education>section:first-child>h2.e1{
         left:475px;
     }
@@ -216,7 +219,7 @@
         margin-top: 130px;
     }
     #education>section:nth-child(3)>section:first-child{
-        margin-top: 128px;
+        margin-top: 155px;
         left: 567px;
     }
     #education>section:nth-child(3)>section:nth-child(2){
@@ -224,6 +227,7 @@
     }
     #education>section:nth-child(3)>section:nth-child(3){
         left: 567px;
+        margin-top: 471px;
     }
     #education>section:nth-child(3)>section:first-child>p{
         font-size: 20px;
