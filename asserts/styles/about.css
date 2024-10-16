@@ -92,10 +92,10 @@
     left: 138px;
 }
 #about>section:nth-child(3)>img{
-    width: 1080px;
+    width: 450px;
     position: absolute;
-    left: -10vw;
-    margin-top: -3vw;
+    left: 13vw;
+    margin-top: 5vw;
     padding: 0;
 }
 
@@ -166,10 +166,10 @@
         left: 95px;
     }
     #about>section:nth-child(3)>img{
-        width: 1080px;
+        width: 400px;
         position: absolute;
-        left: -10vw;
-        margin-top: -3vw;
+        left: 12vw;
+        margin-top: 10vw;
         padding: 0;
     }
 }
@@ -207,7 +207,7 @@
     }
     #about>section:nth-child(2)>div>button{
         padding: 12.5px 60px;
-        margin-left: 180px;
+        margin-left: 110px;
         top: 240px;
         font-size: 10px;
     }
@@ -215,24 +215,25 @@
     #about>section:nth-child(3)>div:first-child{
         width: 300px;
         height: 300px;
-        margin-top: 300px;
-        left: 100px;
+        margin-top: 270px;
+        left: 70px;
     }
     #about>section:nth-child(3)>div:nth-child(2){
         width: 300px;
         height: 300px;
-        margin-top: 320px;
-        left: 140px;
+        margin-top: 270px;
+        left: 50px;
     }
     #about>section:nth-child(3)>img{
-        width:700px;
-        margin-top: 23vw;
+        width:350px;
+        margin-top: 22vw;
+        left: 65px;
     }
 }
 
 @media all and (max-width: 426px) {
     #about{
-        height: 400px;
+        height: 700px;
     }
     #about>section:first-child>h2.topic1{
         left:112px;
@@ -268,61 +269,87 @@
     }
 
     #about>section:nth-child(3)>div:first-child{
-        display: none;
+        width: 240px;
+        height: 270px;
+        margin-top: 390px;
+        left: 70px;
     }
     #about>section:nth-child(3)>div:nth-child(2){
-        display: none;
+        width: 260px;
+        height: 260px;
+        margin-top: 400px;
+        left: 76px;
+    }
+    #about>section:nth-child(3)>img{
+        width:300px;
+        margin-top: 80vw;
+        left: 77px;
     }
 }
 
 @media all and (max-width: 376px) {
-    #about{
-        height: 400px;
+    #about {
+        height: 700px;
     }
-    #about>section:first-child>h2.topic1{
-        left:101px;
+
+    #about > section:first-child > h2.topic1 {
+        left: 101px;
         font-size: 45px;
         margin-top: 25px;
     }
-    #about>section:first-child>h2.topic2{
+
+    #about > section:first-child > h2.topic2 {
         left: 135px;
         font-size: 25px;
         margin-top: 35px;
     }
-    #about>section:nth-child(1)>div{
-        width:170px;
+
+    #about > section:nth-child(1) > div {
+        width: 170px;
         height: 3px;
         left: 135px;
         margin-top: 60px;
     }
 
-    #about>section:nth-child(2)>div{
+    #about > section:nth-child(2) > div {
         width: 240px;
         height: 160px;
         top: 100px;
         margin-left: 86px;
     }
-    #about>section:nth-child(2)>div>p{
+
+    #about > section:nth-child(2) > div > p {
         font-size: 16px;
     }
-    #about>section:nth-child(2)>div>button{
+
+    #about > section:nth-child(2) > div > button {
         padding: 5.5px 57px;
         margin-left: 11px;
         top: 200px;
         font-size: 10px;
     }
-
     #about>section:nth-child(3)>div:first-child{
-        display: none;
+        width: 240px;
+        height: 270px;
+        margin-top: 390px;
+        left: 70px;
     }
     #about>section:nth-child(3)>div:nth-child(2){
-        display: none;
+        width: 260px;
+        height: 260px;
+        margin-top: 400px;
+        left: 76px;
+    }
+    #about>section:nth-child(3)>img{
+        width:300px;
+        margin-top: 90vw;
+        left: 77px;
     }
 }
 
 @media all and (max-width: 320px) {
     #about{
-        height: 400px;
+        height: 700px;
     }
     #about>section:first-child>h2.topic1{
         left:80px;
@@ -358,9 +385,20 @@
     }
 
     #about>section:nth-child(3)>div:first-child{
-        display: none;
+        width: 265px;
+        height: 265px;
+        margin-top: 382px;
+        left: 47px;
     }
     #about>section:nth-child(3)>div:nth-child(2){
-        display: none;
+        width: 260px;
+        height: 260px;
+        margin-top: 400px;
+        left: 39px;
+    }
+    #about>section:nth-child(3)>img{
+        width:300px;
+        margin-top: 100vw;
+        left: 30px;
     }
 }
