@@ -155,20 +155,20 @@
         margin: -45px;
     }
     #welcome>section:nth-child(4).img>img {
-        width: 400px;
+        width: 450px;
         aspect-ratio: 1/1;
         border-radius: 100%;
         position: absolute;
-        top: 90px;
+        top: 170px;
         left: 890px;
     }
     #welcome>section:nth-child(4).img>div {
-        width: 400px;
+        width: 450px;
         aspect-ratio: 1/1;
         border-radius: 100%;
         background-color: rgba(3, 4, 19, 0.5); /* Transparent blue background */
         position: absolute;
-        top: 90px;
+        top: 170px;
         left: 890px;
         animation: my-animation 5s infinite ;
     }
