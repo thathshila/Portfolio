@@ -54,7 +54,7 @@ body {
 /* Headings */
 /* Main heading for card's front cover */
 .card-front__heading {
-    font-size: 1.5rem;
+    font-size: 3.5rem;
     margin-top: .25rem;
 }
 /* Main heading for inside page */
@@ -66,7 +66,7 @@ body {
 /* For both inside page's main heading and 'view me' text on card front cover */
 .inside-page__heading,
 .card-front__text-view {
-    font-size: 1.3rem;
+    font-size: 3.3rem;
     font-weight: 800;
     margin-top: .2rem;
 }
@@ -82,7 +82,7 @@ body {
 .card-front__tp { color: #fafbfa; }
 /* For pricing text on card front cover */
 .card-front__text-price {
-    font-size: 1.2rem;
+    font-size: 3.2rem;
     margin-top: -.2rem;
 }
 /* Back cover */
@@ -190,21 +190,21 @@ body {
 .card {
     background-color: rgba(0,0,0, .05);
     box-shadow: -.1rem 1.7rem 6.6rem -3.2rem rgba(0,0,0,0.5);
-    height: 15rem;
+    height: 28rem;
     position: relative;
     transition: all 1s ease;
-    width: 15rem;
+    width: 28rem;
 }
 /* Flip card - covering both the front and inside front page */
 /* An outer container to hold the flip card. This excludes the inside page */
 .flip-card {
-    height: 15rem;
+    height: 28rem;
     perspective: 100rem;
     position: absolute;
     right: 0;
     transition: all 1s ease;
     visibility: hidden;
-    width: 15rem;
+    width: 28rem;
     z-index: 100;
 }
 /* The outer container's visibility is set to hidden. This is to make everything within the container NOT set to hidden  */
@@ -235,8 +235,8 @@ body {
 /* container for the front side */
 .card-front {
     background-color: #fafbfa;
-    height: 15rem;
-    width: 15rem;
+    height: 28rem;
+    width: 28rem;
 }
 /* Front side's top section */
 .card-front__tp {
@@ -304,7 +304,7 @@ body {
     position: absolute;
     right: 0;
     transition: all 1s ease;
-    width: 15rem;
+    width: 28rem;
     z-index: 1;
 }
 .inside-page__container {
@@ -320,7 +320,7 @@ body {
 .card:hover {
     box-shadow:
             -.1rem 1.7rem 6.6rem -3.2rem rgba(0,0,0,0.75);
-    width: 30rem;
+    width: 28rem;
 }
 /* When the card is hovered, the flip card container will rotate */
 .card:hover .flip-card__container {
