@@ -14,7 +14,7 @@
     font-size: 100px;
     color: aqua;
     left: 10vw;
-    animation-iteration-count: infinite;
+    /*animation-iteration-count: infinite;*/
     /*border: 5px solid white;*/
 }
 #welcome>section:first-child>h1 {
