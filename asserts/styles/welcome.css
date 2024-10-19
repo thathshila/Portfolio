@@ -523,4 +523,7 @@
     .img{
         display: none;
     }
+    #welcome>section:nth-child(5)>div{
+        display: none;
+    }
 }
