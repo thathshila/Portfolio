@@ -389,6 +389,9 @@
    .img{
        display: none;
    }
+    #welcome>section:nth-child(5)>div {
+        display: none;
+    }
 }
 
 @media all and (max-width: 376px){
@@ -453,6 +456,9 @@
         left: 58vw;
     }
     .img{
+        display: none;
+    }
+    #welcome>section:nth-child(5)>div {
         display: none;
     }
 }
