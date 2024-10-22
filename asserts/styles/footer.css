@@ -11,8 +11,9 @@ footer>div{
     margin-left: 500px;
 }
 footer>div>h3{
-    font-family: "Jacques Francois Shadow", serif;
-    font-weight: 400;
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
     font-style: normal;
     text-decoration: none;
     font-size: 20px;
@@ -24,14 +25,10 @@ footer>section:nth-child(1)>div{
     height: 65px;
     position: absolute;
     margin-top: 28px;
-    border: 2px solid aqua;
-    border-radius: 100%;
     background-color: black;
     left: 10vw;
 }
-footer>section:nth-child(1)>div:hover{
-    box-shadow: 10px 5px 50px aqua;
-}
+
 footer>section>div>img{
     width: 50px;
     height: 50px;
@@ -69,7 +66,7 @@ footer>section>div:nth-child(6){
         text-align: center;
         padding: 45px 0;
         font-size: 20px;
-        margin-left: 500px;
+        margin-left: 445px;
     }
     footer>div>h3{
         font-family: "Jacques Francois Shadow", serif;
@@ -85,13 +82,9 @@ footer>section>div:nth-child(6){
         height: 65px;
         position: absolute;
         margin-top: 28px;
-        border: 2px solid aqua;
         border-radius: 100%;
         background-color: black;
         left: 6vw;
-    }
-    footer>section:nth-child(1)>div:hover{
-        box-shadow: 10px 5px 50px aqua;
     }
     footer>section>div>img{
         width: 50px;
@@ -121,8 +114,6 @@ footer>section>div:nth-child(6){
 }
 /*media query for tablet*/
 @media all and (max-width: 768px){
-
-
     footer>div{
         color: white;
         text-align: center;
@@ -144,7 +135,7 @@ footer>section>div:nth-child(6){
         height: 45px;
         position: absolute;
         margin-top: 28px;
-        border: 2px solid aqua;
+        /*border: 2px solid aqua;*/
         border-radius: 100%;
         background-color: black;
         left: 3vw;

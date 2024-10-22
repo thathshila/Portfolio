@@ -47,7 +47,7 @@
     background: black;
     position: absolute;
     margin-top: 250px;
-    margin-left: 400px
+    margin-left: 90px
 }
 
 .cols{
@@ -196,7 +196,7 @@
     padding: 11.5px 30px;
     border: 0;
     border-radius: 100px;
-    background: #2ba8fb;
+    background: #FFEE58;
 }
 
 @media all and (max-width: 1440px){
@@ -219,9 +219,9 @@
         margin-top: 125px;
     }
     .wrapper {
-        width: 700px;
+        width: 880px;
         margin-top: 270px;
-        margin-left: 435px;
+        margin-left: 359px;
         max-width: 100%;
     }
 }
@@ -246,9 +246,9 @@
         margin-top: 105px;
     }
     .wrapper {
-        width: 700px;
-        margin-top: 203px;
-        margin-left: 195px;
+        width: 880px;
+        margin-top: 230px;
+        margin-left: 90px;
         max-width: 100%;
     }
 }

@@ -2,7 +2,7 @@ header{
     position: fixed;
     display: inline-block;
     width: 100vw;
-    background-color: #758694;
+    background-color: white;
     height: 60px;
     z-index: 9999;
 }
@@ -10,7 +10,7 @@ header>section{
     display: flex;
 }
 header>section>img{
-    width: 80px;
+    width: 60px;
     height: 50px;
     top: 10px;
     position: absolute;
@@ -30,14 +30,14 @@ header>nav>ul>li{
 header>nav>ul>li>a {
     text-decoration: none;
     font-size: 18px;
-    color: rgb(255, 255, 255);
-
-    font-family: "Playfair Display SC", serif;
-    font-weight: 400;
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
     font-style: normal;
 }
 header>nav>ul>li>a:hover{
-    color: cyan;
+   font-size: 22px;
+    font-weight: 500;
 }
 
 
@@ -48,7 +48,7 @@ header>nav>ul>li>a:hover{
         left: 35px;
     }
     header>nav{
-        right: 150px;
+        right: 110px;
     }
 }
 

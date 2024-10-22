@@ -1,27 +1,27 @@
 #contact{
     width: 100vw;
-    height: 750px;
-    background: #0e2945;
+    height: 630px;
+    background: black;
     /*background: black;*/
     position: relative;
 }
 #contact>section:first-child>h2.c1{
     color: #00ffff;
     position: absolute;
-    left:750px;
+    left:700px;
     font-size: 70px;
-    margin-top: 60px;
+    margin-top: 70px;
     font-family:"Kameron", serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
 }
 #contact>section:first-child>h2.c2{
-    color: white;
+    color: cyan;
     position: absolute;
-    left: 800px;
+    left: 750px;
     font-size: 30px;
-    margin-top: 80px;
+    margin-top: 90px;
     font-family:"Kameron", serif;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -31,107 +31,80 @@
     width: 300px;
     height: 5px;
     position: absolute;
-    background-color: #00ffff;
-    left: 799px;
-    margin-top: 110px;
+    background-color: cyan;
+    left: 750px;
+    margin-top: 120px;
+}
+#contact>section:nth-child(1)>img {
+    width: 100vw;
+    height: 650px;
 }
 
-#contact>section:nth-child(2){
-    width: 400px;
-    height: 250px;
-    margin-top: 100px;
-    position: absolute;
-    margin-left: 140px;
-}
-#contact>section:nth-child(2)>h4{
-    font-size: 30px;
-    color: white;
-    margin-top: 130px;
-    margin-left: 105px;
-    font-family: "Cookie", cursive;
-    font-weight: 400;
-    font-style: normal;
-}
 #contact>section:nth-child(2)>div{
     position: absolute;
-    width: 350px;
-    height: 50px;
-    margin-left: 30px;
-    margin-top: 10px;
+    width: 900px;
+    height: 5px;
+    margin-left: 300px;
+   top: 170px;
 }
 #contact>section:nth-child(2)>div>p{
-    color: white;
+    color: #FFEE58;
     font-size: 20px;
-    font-family: "Libre Baskerville", serif;
-    font-weight: 400;
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
     font-style: normal;
 }
 
 #contact>section:nth-child(3){
     position: absolute;
-    width: 400px;
-    height: 200px;
-    margin-top: 350px;
-    margin-left: 300px;
-    display: grid;
-    grid-template-rows: repeat(3,1fr);
+    top: 220px;
+    left: 300px;
 }
-#contact>section:nth-child(3)>div>h4{
-    display: flex;
-    justify-content: start;
-    font-size: 20px;
-    color: white;
-    font-family: "Gowun Batang", serif;
-    font-weight: 400;
-    font-style: normal;
-}
-#contact>section:nth-child(3)>div>span{
-    display: flex;
-    justify-content: start;
-    font-size: 20px;
-    color: #00ffff;
-    font-family: "Gowun Batang", serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
-#contact>section:nth-child(4){
-    width: 446px;
-    height: 461px;
-    border-radius: 20px;
-    border: 1px solid aqua;
-    position: absolute;
-    margin-top:157px;
-    right: 222px;
-    background: white;
-    box-shadow: inset 2px 5px 10px #001a80;
-}
-#contact>section:nth-child(4)>input{
-    width: 400px;
+#contact>section:nth-child(3)>div{
     margin: 20px;
     background: none;
     border: none;
     outline: none;
     padding: 10px 20px;
-    font-size: 16px;
+    /*font-size: 16px;*/
     border-radius: 9999px;
-    box-shadow: inset 2px 5px 10px #001a80;
-    color: black;
-
-}
-#contact>section:nth-child(4)>textarea{
-    width: 400px;
-    height: 200px;
-    margin: 20px;
-    background: none;
-    border: none;
-    outline: none;
-    padding: 10px 20px;
-    font-size: 16px;
-    box-shadow: inset 2px 5px 10px #001a80;
+    box-shadow: inset 2px 5px 100px white;
     color: black;
 }
-#contact>section:nth-child(4)>button{
+#contact>section:nth-child(3)>div:nth-child(1){
+    width: 300px;
+}
+#contact>section:nth-child(3)>div:nth-child(2){
+    width: 300px;
+}
+#contact>section:nth-child(3)>div:nth-child(3){
+    width: 700px;
+}
+#contact>section:nth-child(3)>div:nth-child(4){
+    width: 700px;
+    height: 100px;
+}
+#contact>section:nth-child(3)>div:nth-child(1)>input{
+    width: 300px;
+ }
+#contact>section:nth-child(3)>div:nth-child(2)>input{
+width: 300px;
+}
+#contact>section:nth-child(3)>div:nth-child(3)>input{
+    width: 700px;
+    height: 30px;
+}
+#contact>section:nth-child(3)>div:nth-child(4)>textarea{
+    height: 70px;
+    width: 680px;
+}
+#contact>section:nth-child(3)>div:nth-child(2){
+    position: absolute;
+    top: 0px;
+    left: 400px;
+}
+#contact>section:nth-child(3)>button{
     padding: 12.5px 70px;
     border: 0;
     border-radius: 100px;
@@ -140,487 +113,96 @@
     font-weight: Bold;
     position: absolute;
     margin-left: 100px;
-    top: 400px;
+    top: 350px;
+    left: 210px;
     font-size: 13px;
 }
-#contact>section:nth-child(4)>button:hover {
+#contact>section:nth-child(3)>button:hover {
     background-color: #6fc5ff;
     box-shadow: 0 0 20px #6fc5ff50;
     transform: scale(1.1);
 }
 
-#contact>section:nth-child(5){
-    width: 100px;
-    height: 200px;
-    position: absolute;
-    margin-top: 350px;
-    margin-left: 250px;
-    display: grid;
-    grid-template-rows: repeat(3,1fr);
-}
-#contact>section:nth-child(5)>div{
-    width: 48px;
-    height: 48px;
-    background-color: black;
-    border: 2px solid aqua;
-    border-radius: 10px;
-
-}
-#contact>section:nth-child(5)>div>img{
-    width: 44px;
-    height: 44px;
-    justify-content:center;
-}
-#contact>img#my{
-    width: 100px;
-    height: 100px;
-    position: absolute;
-    top: 140px;
-    left: 270px;
-    animation-iteration-count: infinite;
-}
-
 
 /*media query for laptop 1440px*/
 @media all and (max-width: 1440px){
-    #contact{
-        height: 800px;
-    }
     #contact>section:first-child>h2.c1{
-        left:590px;
+        margin-top: 20px;
     }
     #contact>section:first-child>h2.c2{
-        left: 646px;
+        margin-top: 40px;
     }
     #contact>section:nth-child(1)>div{
-        left: 639px;
+        margin-top: 72px;
     }
-    #contact>section:nth-child(4){
-        margin-top:235px;
-        right: 220px;
+    #contact>section:nth-child(1)>img {
+        width: 1440px;
+        height: 650px;
     }
     #contact>section:nth-child(3){
-        margin-top:470px;
+        top: 215px;
+        left: 365px;
     }
-    #contact>section:nth-child(5){
-        margin-top:465px;
-        margin-left: 225px;
-    }
-    #contact>section:nth-child(2) {
-        margin-top: 180px;
-    }
-    #contact>img#my{
-        top: 200px;
-        left: 280px;
+    #contact>section:nth-child(2)>div{
+        margin-left: 365px;
+        top: 155px;
     }
 }
 
 @media all and (max-width: 1024px){
-    #contact{
-        height: 650px;
-    }
     #contact>section:first-child>h2.c1{
-        left:473px;
+        margin-top: 50px;
+        left: 300px;
     }
     #contact>section:first-child>h2.c2{
-        left: 525px;
+        margin-top: 70px;
+        left: 355px;
     }
     #contact>section:nth-child(1)>div{
-        left: 525px;
-    }
-    #contact>section:nth-child(2){
-        width: 400px;
-        height: 250px;
         margin-top: 100px;
-        position: absolute;
-        margin-left: 60px;
+        left: 350px;
     }
-    #contact>img#my{
-        width: 100px;
-        height: 100px;
-        position: absolute;
-        top: 140px;
-        left: 220px;
-        animation-iteration-count: infinite;
+    #contact>section:nth-child(1)>img {
+        width: 1024px;
+        height: 650px;
     }
     #contact>section:nth-child(3){
-        position: absolute;
-        width: 400px;
-        height: 200px;
-        margin-top: 365px;
-        margin-left: 215px;
-        display: grid;
-        grid-template-rows: repeat(3,1fr);
+        top: 215px;
+        left: 165px;
     }
-    #contact>section:nth-child(5){
-        width: 100px;
-        height: 200px;
-        position: absolute;
-        margin-top: 365px;
-        margin-left: 150px;
-        display: grid;
-        grid-template-rows: repeat(3,1fr);
-    }
-    #contact>section:nth-child(4){
-        margin-top:143px;
-        right: 85px;
+    #contact>section:nth-child(2)>div{
+        margin-left: 130px;
+        top: 155px;
     }
 }
 
 /*media query for tablet*/
 @media all and (max-width: 768px){
-    #contact>section:first-child>h2.c1{
-        font-size: 45px;
-        left: 372px;
-        margin-top: 50px;
-    }
-    #contact>section:first-child>h2.c2{
-        font-size: 25px;
-        left: 402px;
-        margin-top: 60px;
-    }
-    #contact>section:nth-child(1)>div{
-        width: 200px;
-        height: 3px;
-        left: 403px;
-        margin-top: 85px;
-    }
-    #contact>section:nth-child(2){
-        width: 400px;
-        height: 250px;
-        margin-top: 100px;
-        margin-left: 57px;
-    }
-    #contact>section:nth-child(2)>h4{
-        font-size: 22px;
-        margin-top: 88px;
-        margin-left: 70px;
-    }
-    #contact>section:nth-child(2)>div{
-        width: 350px;
-        height: 50px;
-        margin-left: 30px;
-        margin-top: 10px;
-    }
-    #contact>section:nth-child(2)>div>p{
-        font-size: 15px;
+    #contact>section:nth-child(1)>img {
+        width: 768px;
+        height: 650px;
     }
     #contact>section:nth-child(3){
-        width: 400px;
-        height: 200px;
-        margin-top: 301px;
-        margin-left: 184px;
+        top: 215px;
+        left: -6px;
     }
-    #contact>section:nth-child(3)>div>h4{
-        font-size: 17px;
+    #contact>section:nth-child(2)>div{
+        margin-left: 25px;
+        top: 155px;
     }
-    #contact>section:nth-child(3)>div>span{
-        font-size: 17px;
-    }
-    #contact>section:nth-child(4){
-        width: 246px;
-        height: 396px;
-        margin-top:145px;
-        right: 63px;
-    }
-    #contact>section:nth-child(4)>input{
-        width: 200px;
-        margin: 20px;
-    }
-    #contact>section:nth-child(4)>textarea{
-        width: 200px;
-        height: 200px;
-    }
-    #contact>section:nth-child(4)>button{
-        padding: 10.5px 70px;
-        margin-left: 6px;
-        top: 407px;
-        font-size: 12px;
-    }
-    #contact>section:nth-child(5){
-        margin-top: 295px;
-        margin-left: 120px;
-    }
-    #contact>img#my{
-        width: 60px;
-        height: 60px;
-        top: 128px;
-        left: 187px;
+    #contact>section:nth-child(2)>div>p{
+        font-size: 18px;
     }
 }
 
 @media all and (max-width: 426px){
-    #contact{
-        height: 1000px;
-    }
-    #contact>section:first-child>h2.c1{
-        font-size: 45px;
-        left: 126px;
-        margin-top: 50px;
-    }
-    #contact>section:first-child>h2.c2{
-        font-size: 25px;
-        left: 160px;
-        margin-top: 60px;
-    }
-    #contact>section:nth-child(1)>div{
-        width: 200px;
-        height: 3px;
-        left: 160px;
-        margin-top: 85px;
-    }
 
-    #contact>section:nth-child(2){
-        width: 400px;
-        height: 250px;
-        margin-top: 100px;
-        margin-left: 57px;
-    }
-    #contact>section:nth-child(2)>h4{
-        font-size: 22px;
-        margin-top: 88px;
-        margin-left: 90px;
-    }
-    #contact>section:nth-child(2)>div{
-        width: 310px;
-        height: 50px;
-        margin-left: 40px;
-        margin-top: 10px;
-    }
-
-    #contact>section:nth-child(2)>div>p{
-        font-size: 15px;
-    }
-    #contact>section:nth-child(3){
-        width: 400px;
-        height: 200px;
-        margin-top: 301px;
-        margin-left: 184px;
-    }
-    #contact>section:nth-child(3)>div>h4{
-        font-size: 17px;
-    }
-    #contact>section:nth-child(3)>div>span{
-        font-size: 17px;
-    }
-
-    #contact>section:nth-child(4){
-        width: 315px;
-        height: 400px;
-        margin-top:500px;
-        right: 50px;
-    }
-    #contact>section:nth-child(4)>input{
-        width: 250px;
-        margin: 20px;
-    }
-    #contact>section:nth-child(4)>textarea{
-        width: 250px;
-        height: 200px;
-    }
-    #contact>section:nth-child(4)>button{
-        padding: 10.5px 70px;
-        margin-left: 45px;
-        top: 420px;
-        font-size: 12px;
-    }
-    #contact>section:nth-child(5){
-        margin-top: 295px;
-        margin-left: 120px;
-    }
-    #contact>img#my{
-        width: 60px;
-        height: 60px;
-        top: 128px;
-        left: 187px;
-    }
 }
 
 @media all and (max-width: 376px){
-    #contact{
-        height: 1000px;
-    }
-    #contact>section:first-child>h2.c1{
-        font-size: 45px;
-        left: 92px;
-        margin-top: 52px;
-    }
-    #contact>section:first-child>h2.c2{
-        font-size: 25px;
-        left: 125px;
-        margin-top: 60px;
-    }
-    #contact>section:nth-child(1)>div{
-        width: 170px;
-        height: 3px;
-        left: 125px;
-        margin-top: 85px;
-    }
 
-    #contact>section:nth-child(2){
-        width: 400px;
-        height: 200px;
-        margin-top: 100px;
-        margin-left: 25px;
-    }
-    #contact>section:nth-child(2)>h4{
-        font-size: 22px;
-        margin-top: 88px;
-        margin-left: 90px;
-    }
-    #contact>section:nth-child(2)>div{
-        width: 265px;
-        height: 50px;
-        margin-left: 40px;
-        margin-top: 10px;
-    }
-
-    #contact>section:nth-child(2)>div>p{
-        font-size: 15px;
-    }
-    #contact>section:nth-child(3){
-        width: 400px;
-        height: 200px;
-        margin-top: 301px;
-        margin-left: 140px;
-    }
-    #contact>section:nth-child(3)>div>h4{
-        font-size: 17px;
-    }
-    #contact>section:nth-child(3)>div>span{
-        font-size: 17px;
-    }
-
-    #contact>section:nth-child(4){
-        width: 315px;
-        height: 400px;
-        margin-top:490px;
-        right: 30px;
-    }
-    #contact>section:nth-child(4)>input{
-        width: 260px;
-        margin: 20px;
-    }
-    #contact>section:nth-child(4)>textarea{
-        width: 260px;
-        height: 200px;
-    }
-    #contact>section:nth-child(4)>button{
-        padding: 10.5px 70px;
-        margin-left: 45px;
-        top: 420px;
-        font-size: 12px;
-    }
-
-    #contact>section:nth-child(5){
-        margin-top: 295px;
-        margin-left: 80px;
-    }
-    #contact>img#my{
-        width: 60px;
-        height: 60px;
-        top: 128px;
-        left: 160px;
-    }
 }
 
 @media all and (max-width: 320px){
-    #contact{
-        height: 1000px;
-    }
-    #contact>section:first-child>h2.c1{
-        font-size: 45px;
-        left: 70px;
-        margin-top: 52px;
-    }
-    #contact>section:first-child>h2.c2{
-        font-size: 25px;
-        left: 102px;
-        margin-top: 60px;
-    }
-    #contact>section:nth-child(1)>div{
-        width: 160px;
-        height: 3px;
-        left: 102px;
-        margin-top: 85px;
-    }
 
-    #contact>section:nth-child(2){
-        width: 400px;
-        height: 200px;
-        margin-top: 100px;
-        margin-left: 25px;
-    }
-    #contact>section:nth-child(2)>h4{
-        font-size: 22px;
-        margin-top: 88px;
-        margin-left: 50px;
-    }
-    #contact>section:nth-child(2)>div{
-        width: 265px;
-        height: 50px;
-        margin-left: 16px;
-        margin-top: 10px;
-    }
-    #contact>section:nth-child(2)>div>p{
-        font-size: 13px;
-    }
-
-    #contact>section:nth-child(3){
-        width: 400px;
-        height: 200px;
-        margin-top: 301px;
-        margin-left: 108px;
-    }
-    #contact>section:nth-child(3)>div>h4{
-        font-size: 14px;
-    }
-    #contact>section:nth-child(3)>div>span{
-        font-size: 14px;
-    }
-
-    #contact>section:nth-child(4){
-        width: 250px;
-        height: 400px;
-        margin-top:490px;
-        right: 30px;
-    }
-    #contact>section:nth-child(4)>input{
-        width: 210px;
-        margin: 20px;
-    }
-    #contact>section:nth-child(4)>textarea{
-        width: 210px;
-        height: 200px;
-    }
-    #contact>section:nth-child(4)>button{
-        padding: 9.5px 67px;
-        margin-left: 20px;
-        top: 420px;
-        font-size: 10px;
-    }
-
-    #contact>section:nth-child(5){
-        margin-top: 295px;
-        margin-left: 50px;
-    }
-    #contact>section:nth-child(5)>div{
-        width: 40px;
-        height: 40px;
-        background-color: black;
-        border: 2px solid aqua;
-        border-radius: 10px;
-
-    }
-    #contact>section:nth-child(5)>div>img{
-        width: 36px;
-        height: 36px;
-        justify-content:center;
-    }
-    #contact>img#my{
-        width: 60px;
-        height: 60px;
-        top: 128px;
-        left: 120px;
-    }
 }

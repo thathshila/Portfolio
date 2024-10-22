@@ -6,7 +6,7 @@
     position: relative;
 }
 #about>section:first-child>h2.topic1{
-    color: #00ffff;
+    color: cyan;
     position: absolute;
     left:750px;
     font-size: 70px;
@@ -17,7 +17,7 @@
     font-style: normal;
 }
 #about>section:first-child>h2.topic2{
-    color: white;
+    color: cyan;
     position: absolute;
     left: 800px;
     font-size: 30px;
@@ -31,7 +31,7 @@
     width: 300px;
     height: 5px;
     position: absolute;
-    background-color: #00ffff;
+    background-color: cyan;
     left: 799px;
     margin-top: 140px;
 }
@@ -45,13 +45,10 @@
 }
 #about>section:nth-child(2)>div>p{
     font-size: 25px;
-    color: cyan;
-    font-family: "Gowun Batang", serif;
-    font-weight: 400;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
     font-style: normal;
-    /*font-family: "Poppins", sans-serif;*/
-    /*font-weight: 400;*/
-    /*font-style: normal;*/
 }
 #about>section:nth-child(2)>div>button{
     padding: 17.5px 60px;
@@ -70,32 +67,12 @@
     box-shadow: 0 0 20px #6fc5ff50;
     transform: scale(1.1);
 }
-
-#about>section:nth-child(3)>div:first-child{
-    position: absolute;
-    width: 445px;
-    height: 417px;
-    border-radius: 100%;
-    background: linear-gradient(60deg, #00ffff,white);
-    filter: blur(100px);
-    margin-top: 156px;
-    left: 150px;
-}
-#about>section:nth-child(3)>div:nth-child(2){
-    position: absolute;
-    width: 450px;
-    height: 450px;
-    border-radius: 100%;
-    border: 10px solid white;
-    background: linear-gradient(180deg,black,white);
-    margin-top: 140px;
-    left: 138px;
-}
 #about>section:nth-child(3)>img{
-    width: 450px;
+    width: 585px;
+    height: 600px;
     position: absolute;
-    left: 13vw;
-    margin-top: 5vw;
+    left: 7vw;
+    margin-top: 8vw;
     padding: 0;
 }
 
@@ -110,35 +87,23 @@
 }
 
 @media all and (max-width: 1024px){
-    #about{
-        height: 680px;
-    }
     #about>section:first-child>h2.topic1{
-        left:493px;
-        font-size: 70px;
-        margin-top: 85px;
+        left: 450px;
     }
     #about>section:first-child>h2.topic2{
-        left: 539px;
-        font-size: 30px;
-        margin-top: 110px;
-    }
-    #about>section:nth-child(1)>div{
-        width: 300px;
-        height: 5px;
-        left: 543px;
-        margin-top: 140px;
+        left: 500px;
     }
 
+    #about>section:nth-child(1)>div{
+        left: 500px;
+    }
     #about>section:nth-child(2)>div{
-        width: 429px;
-        height: 201px;
-        position: absolute;
-        top: 255px;
-        margin-left: 532px;
+        width: 350px;
+        height: 200px;
+        margin-left: 485px;
     }
     #about>section:nth-child(2)>div>p{
-        font-size: 20px;
+      font-size: 22px;
     }
     #about>section:nth-child(2)>div>button{
         padding: 17.5px 60px;
@@ -148,257 +113,54 @@
         color: #ffffff;
         font-weight: Bold;
         position: absolute;
-        margin-left: 128px;
-        top: 240px;
+        margin-left: 57px;
+        top: 330px;
         font-size: 13px;
-    }
-
-    #about>section:nth-child(3)>div:first-child{
-        width: 383px;
-        height: 383px;
-        margin-top: 156px;
-        left: 102px;
-    }
-    #about>section:nth-child(3)>div:nth-child(2){
-        width: 400px;
-        height: 400px;
-        margin-top: 155px;
-        left: 95px;
-    }
-    #about>section:nth-child(3)>img{
-        width: 400px;
-        position: absolute;
-        left: 12vw;
-        margin-top: 10vw;
-        padding: 0;
     }
 }
 
 /*media query for tablet*/
 @media all and (max-width: 768px){
     #about{
-        height: 642px;
+        height: 700px;
     }
     #about>section:first-child>h2.topic1{
-        left:376px;
+        left: 340px;
         font-size: 45px;
-        margin-top: 50px;
     }
     #about>section:first-child>h2.topic2{
-        left: 402px;
+        left: 375px;
         font-size: 25px;
-        margin-top: 60px;
-    }
-    #about>section:nth-child(1)>div{
-        width:200px;
-        height: 3px;
-        left: 409px;
-        margin-top: 85px;
+        margin-top: 100px;
     }
 
+    #about>section:nth-child(1)>div{
+        height: 3px;
+        width: 190px;
+        left: 375px;
+        margin-top: 125px;
+    }
     #about>section:nth-child(2)>div{
-        width: 380px;
-        height: 100px;
-        top: 150px;
-        margin-left: 350px;
+        width: 300px;
+        height: 280px;
+        margin-left: 380px;
+        top: 215px;
     }
     #about>section:nth-child(2)>div>p{
         font-size: 20px;
     }
     #about>section:nth-child(2)>div>button{
-        padding: 12.5px 60px;
-        margin-left: 110px;
-        top: 240px;
-        font-size: 10px;
-    }
-
-    #about>section:nth-child(3)>div:first-child{
-        width: 300px;
-        height: 300px;
-        margin-top: 270px;
-        left: 70px;
-    }
-    #about>section:nth-child(3)>div:nth-child(2){
-        width: 300px;
-        height: 300px;
-        margin-top: 270px;
-        left: 50px;
-    }
-    #about>section:nth-child(3)>img{
-        width:350px;
-        margin-top: 22vw;
-        left: 65px;
+        top: 303px;
     }
 }
 
 @media all and (max-width: 426px) {
-    #about{
-        height: 700px;
-    }
-    #about>section:first-child>h2.topic1{
-        left:112px;
-        font-size: 45px;
-        margin-top: 25px;
-    }
-    #about>section:first-child>h2.topic2{
-        left: 144px;
-        font-size: 25px;
-        margin-top: 35px;
-    }
-    #about>section:nth-child(1)>div{
-        width:200px;
-        height: 3px;
-        left: 145px;
-        margin-top: 60px;
-    }
-
-    #about>section:nth-child(2)>div{
-        width: 302px;
-        height: 125px;
-        top: 100px;
-        margin-left: 72px;
-    }
-    #about>section:nth-child(2)>div>p{
-        font-size: 18px;
-    }
-    #about>section:nth-child(2)>div>button{
-        padding: 12.5px 60px;
-        margin-left: 60px;
-        top: 200px;
-        font-size: 10px;
-    }
-
-    #about>section:nth-child(3)>div:first-child{
-        width: 240px;
-        height: 270px;
-        margin-top: 390px;
-        left: 70px;
-    }
-    #about>section:nth-child(3)>div:nth-child(2){
-        width: 260px;
-        height: 260px;
-        margin-top: 400px;
-        left: 76px;
-    }
-    #about>section:nth-child(3)>img{
-        width:300px;
-        margin-top: 80vw;
-        left: 77px;
-    }
 }
 
 @media all and (max-width: 376px) {
-    #about {
-        height: 700px;
-    }
 
-    #about > section:first-child > h2.topic1 {
-        left: 101px;
-        font-size: 45px;
-        margin-top: 25px;
-    }
-
-    #about > section:first-child > h2.topic2 {
-        left: 135px;
-        font-size: 25px;
-        margin-top: 35px;
-    }
-
-    #about > section:nth-child(1) > div {
-        width: 170px;
-        height: 3px;
-        left: 135px;
-        margin-top: 60px;
-    }
-
-    #about > section:nth-child(2) > div {
-        width: 240px;
-        height: 160px;
-        top: 100px;
-        margin-left: 86px;
-    }
-
-    #about > section:nth-child(2) > div > p {
-        font-size: 16px;
-    }
-
-    #about > section:nth-child(2) > div > button {
-        padding: 5.5px 57px;
-        margin-left: 11px;
-        top: 200px;
-        font-size: 10px;
-    }
-    #about>section:nth-child(3)>div:first-child{
-        width: 240px;
-        height: 270px;
-        margin-top: 390px;
-        left: 70px;
-    }
-    #about>section:nth-child(3)>div:nth-child(2){
-        width: 260px;
-        height: 260px;
-        margin-top: 400px;
-        left: 76px;
-    }
-    #about>section:nth-child(3)>img{
-        width:300px;
-        margin-top: 90vw;
-        left: 77px;
-    }
 }
 
 @media all and (max-width: 320px) {
-    #about{
-        height: 700px;
-    }
-    #about>section:first-child>h2.topic1{
-        left:80px;
-        font-size: 40px;
-        margin-top: 25px;
-    }
-    #about>section:first-child>h2.topic2{
-        left: 111px;
-        font-size: 25px;
-        margin-top: 33px;
-    }
-    #about>section:nth-child(1)>div{
-        width:145px;
-        height: 3px;
-        left: 110px;
-        margin-top: 57px;
-    }
 
-    #about>section:nth-child(2)>div{
-        width: 250px;
-        height: 160px;
-        top: 100px;
-        margin-left: 45px;
-    }
-    #about>section:nth-child(2)>div>p{
-        font-size: 15px;
-    }
-    #about>section:nth-child(2)>div>button{
-        padding: 7.5px 57px;
-        margin-left: 20px;
-        top: 175px;
-        font-size: 10px;
-    }
-
-    #about>section:nth-child(3)>div:first-child{
-        width: 265px;
-        height: 265px;
-        margin-top: 382px;
-        left: 47px;
-    }
-    #about>section:nth-child(3)>div:nth-child(2){
-        width: 260px;
-        height: 260px;
-        margin-top: 400px;
-        left: 39px;
-    }
-    #about>section:nth-child(3)>img{
-        width:300px;
-        margin-top: 100vw;
-        left: 30px;
-    }
 }

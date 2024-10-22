@@ -2,7 +2,7 @@
     width: 100vw;
     height: 750px;
     /*background-color: black;*/
-    background: #0e2945;
+    background: black;
     position: relative;
 }
 #skill>section:first-child>h2.skill1{
@@ -10,7 +10,7 @@
     position: absolute;
     left: 740px;
     margin-top: 55px;
-    color: #00ffff;
+    color: cyan;
     font-family:"Kameron", serif;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -21,7 +21,7 @@
     position: absolute;
     left: 780px;
     margin-top: 70px;
-    color: white;
+    color: cyan;
     font-family:"Kameron", serif;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -31,7 +31,7 @@
     width: 300px;
     height: 5px;
     position: absolute;
-    background-color: #00ffff;
+    background-color: cyan;
     left: 780px;
     margin-top: 100px;
 }
@@ -47,18 +47,18 @@
     background-color:white;
     margin-top: 200px;
     position: relative;
-    box-shadow: 0 0 50px #00ffff;
 }
 #skill>section:nth-child(2)>div:hover{
-    box-shadow: 10px 10px 30px #5399d3;
+
     transform: scale(1.1);
 }
 #skill>section:nth-child(2)>div>h4{
     font-size: 25px;
     color: white;
     margin-top: -45px;
-    font-family: "Gowun Batang", serif;
-    font-weight: 400;
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
     font-style: normal;
 }
 #skill>section:nth-child(2)>div>img{
@@ -83,7 +83,7 @@
     background-color:white;
     margin-top: 190px;
     position: relative;
-    box-shadow: 0 0 50px #00ffff;
+
 }
 #skill>section:nth-child(3)>div:hover {
     box-shadow: 0 0 20px #5399d3;
@@ -93,8 +93,9 @@
     font-size: 25px;
     color: white;
     margin-top: -45px;
-    font-family: "Gowun Batang", serif;
-    font-weight: 400;
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
     font-style: normal;
 }
 #skill>section:nth-child(3)>div>img{
@@ -182,7 +183,7 @@
 /*media query for tablet*/
 @media all and (max-width: 768px){
     #skill{
-        height: 642px;
+        height: 670px;
     }
     #skill>section:first-child>h2.skill1{
         font-size: 45px;

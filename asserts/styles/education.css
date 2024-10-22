@@ -97,9 +97,8 @@
     color: aqua;
     margin-top: 20px;
     margin-left: 150px;
-    font-family: "Lora", serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
     font-style: normal;
 }
 #education>section:nth-child(3)>section:first-child>p{
@@ -107,9 +106,8 @@
     margin-top: 20px;
     margin-left: 28px;
     color: white;
-    font-family: "Lora", serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
     font-style: normal;
 }
 
@@ -118,9 +116,8 @@
     color: aqua;
     margin-top: 20px;
     margin-left: 150px;
-    font-family: "Lora", serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
     font-style: normal;
 }
 #education>section:nth-child(3)>section:nth-child(2)>p{
@@ -128,9 +125,8 @@
     margin-top: 20px;
     margin-left:28px;
     color: white;
-    font-family: "Lora", serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
     font-style: normal;
 }
 
@@ -139,9 +135,8 @@
     color: aqua;
     margin-top: 20px;
     margin-left: 150px;
-    font-family: "Lora", serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
     font-style: normal;
 }
 #education>section:nth-child(3)>section:nth-child(3)>p{
@@ -149,9 +144,8 @@
     margin-top: 20px;
     margin-left: 30px;
     color: white;
-    font-family: "Lora", serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
     font-style: normal;
 }
 
@@ -189,9 +183,8 @@
         margin-top: 20px;
         margin-left: 28px;
         color: white;
-        font-family: "Lora", serif;
-        font-optical-sizing: auto;
-        font-weight: 400;
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
         font-style: normal;
     }
 }
