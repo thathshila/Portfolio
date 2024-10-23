@@ -122,10 +122,15 @@ width: 300px;
     box-shadow: 0 0 20px #6fc5ff50;
     transform: scale(1.1);
 }
-
+#contact>section:nth-child(3)>div:nth-child(1)>h4{
+    display: none;
+}
 
 /*media query for laptop 1440px*/
 @media all and (max-width: 1440px){
+    #contact>section:nth-child(3)>div:nth-child(1)>h4{
+        display: none;
+    }
     #contact>section:first-child>h2.c1{
         margin-top: 20px;
     }
@@ -150,6 +155,9 @@ width: 300px;
 }
 
 @media all and (max-width: 1024px){
+    #contact>section:nth-child(3)>div:nth-child(1)>h4{
+        display: none;
+    }
     #contact>section:first-child>h2.c1{
         margin-top: 50px;
         left: 300px;
@@ -178,6 +186,9 @@ width: 300px;
 
 /*media query for tablet*/
 @media all and (max-width: 768px){
+    #contact>section:nth-child(3)>div:nth-child(1)>h4{
+        display: none;
+    }
     #contact>section:nth-child(1)>img {
         width: 768px;
         height: 650px;
@@ -196,7 +207,69 @@ width: 300px;
 }
 
 @media all and (max-width: 426px){
-
+    #contact>section:first-child>h2.c1{
+        left:135px;
+        font-size: 45px;
+        margin-top: 85px;
+    }
+    #contact>section:first-child>h2.c2{
+        left: 170px;
+        font-size: 30px;
+        margin-top: 90px;
+    }
+    #contact>section:nth-child(1)>div{
+        width: 200px;
+        height: 5px;
+        left: 171px;
+        margin-top: 120px;
+    }
+    #contact>section:nth-child(1)>img {
+        width: 415px;
+        height: 650px;
+    }
+    #contact>section:nth-child(3){
+        top: 215px;
+        left: -6px;
+    }
+    #contact>section:nth-child(2)>div{
+        margin-left: 55px;
+        top: 155px;
+        width: 340px;
+    }
+    #contact>section:nth-child(2)>div>p{
+        font-size: 18px;
+    }
+    #contact>section:nth-child(3)>div:nth-child(1){
+        width: 320px;
+    }
+    #contact>section:nth-child(3)>div:nth-child(1)>h3{
+        display: none;
+    }
+    #contact>section:nth-child(3)>div:nth-child(1)>h4{
+        display: inline;
+    }
+    #contact>section:nth-child(3)>div:nth-child(2){
+        display: none;
+    }
+    #contact>section:nth-child(3)>div:nth-child(3){
+        width: 320px;
+    }
+    #contact>section:nth-child(3)>div:nth-child(4){
+        width: 320px;
+        height: 100px;
+    }
+    #contact>section:nth-child(3)>div:nth-child(3)>input{
+        width: 300px;
+        height: 30px;
+    }
+    #contact>section:nth-child(3)>div:nth-child(4)>textarea{
+        height: 70px;
+        width: 300px;
+    }
+    #contact>section:nth-child(3)>button{
+        top: 350px;
+        left: 0px;
+    }
 }
 
 @media all and (max-width: 376px){

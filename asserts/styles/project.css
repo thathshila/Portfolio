@@ -159,3 +159,35 @@
         margin: 5px;
     }
 }
+
+@media all and (max-width: 426px){
+    #project{
+        height: 2000px;
+    }
+    #topic>h2.p1{
+        left: 146px;
+    }
+    #topic>h2.p2{
+        left: 177px;
+    }
+    #topic>div{
+        left: 162px;
+    }
+    #project>section:nth-child(2){
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    #project>section:nth-child(2)>div{
+        left: 50px;
+        margin: 5px;
+    }
+}
+
+@media all and (max-width: 376px){
+    #topic>div{
+       width: 170px;
+    }
+    #project>section:nth-child(2)>div{
+        width: 170px;
+    }
+}

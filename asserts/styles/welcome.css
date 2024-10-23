@@ -141,21 +141,30 @@
 }
 
 @media all and (max-width: 426px){
+    #welcome>section:first-child>h1{
+        font-size: 70px;
+    }
+    #welcome>section:first-child>h4{
+        font-size: 30px;
+    }
+    #welcome>section:first-child>span{
+        font-size: 30px;
+    }
     #welcome>section:nth-child(3)>img{
-        width: 768px;
+        width: 675px;
         height: 750px;
     }
     #welcome>section:nth-child(3)>div:nth-child(2){
-        left: 21vw;
+        left: 26vw;
     }
     #welcome>section:nth-child(3)>div:nth-child(3){
-        left: 27vw;
+        left: 37vw;
     }
     #welcome>section:nth-child(3)>div:nth-child(4){
-        left: 33vw;
+        left: 48vw;
     }
     #welcome>section:nth-child(3)>div:nth-child(5){
-        left: 39vw;
+        left: 60vw;
     }
 }
 

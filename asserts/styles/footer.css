@@ -196,13 +196,9 @@ footer>section>div:nth-child(6){
         height: 45px;
         position: absolute;
         margin-top: 28px;
-        border: 2px solid aqua;
         border-radius: 100%;
         background-color: black;
         left: 15vw;
-    }
-    footer>section:nth-child(1)>div:hover{
-        box-shadow: 10px 5px 50px aqua;
     }
     footer>section>div>img{
         width: 40px;
@@ -257,13 +253,9 @@ footer>section>div:nth-child(6){
         height: 45px;
         position: absolute;
         margin-top: 28px;
-        border: 2px solid aqua;
         border-radius: 100%;
         background-color: black;
         left: 15vw;
-    }
-    footer>section:nth-child(1)>div:hover{
-        box-shadow: 10px 5px 50px aqua;
     }
     footer>section>div>img{
         width: 40px;
