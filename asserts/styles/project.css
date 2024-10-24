@@ -72,8 +72,9 @@
     left: 5px;
     color: white;
 }
-#project>section:nth-child(2)>div>button{
-    padding: 12.5px 60px;
+#project>section:nth-child(2)>div>a>div{
+   width: 120px;
+    height: 55px;
     border: 0;
     border-radius: 100px;
     background-color: #2ba8fb;
@@ -84,14 +85,14 @@
     top: 360px;
     font-size: 13px;
 }
-#project>section:nth-child(2)>div>button:hover {
+#project>section:nth-child(2)>div>a>div:hover {
     background-color: #6fc5ff;
     box-shadow: 0 0 20px #6fc5ff50;
     transform: scale(1.1);
 }
-#project>section:nth-child(2)>div>button>img{
-    width: 25px;
-    height: 25px;
+#project>section:nth-child(2)>div>a>div>img{
+    width: 50px;
+    height: 50px;
 }
 #project>section:nth-child(2)>div:hover{
         transform: rotateY(30deg) rotateX(15deg) scale(1.05); /* Apply 3D rotation and slight scaling */
@@ -189,5 +190,29 @@
     }
     #project>section:nth-child(2)>div{
         width: 170px;
+    }
+}
+
+@media all and (max-width: 320px){
+    #topic>h2.p1{
+        left: 85px;
+    }
+    #topic>h2.p2{
+        left: 112px;
+    }
+    #topic>div{
+        width: 130px;
+        left: 105px;
+    }
+    #project>section:nth-child(2)>div{
+        width: 131px;
+        left: 28px;
+        margin: 5px;
+    }
+    #project>section:nth-child(2)>div>a>div{
+        top: 370px;
+    }
+    #project>section:nth-child(2)>div>p{
+        top: 244px;
     }
 }

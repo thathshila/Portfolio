@@ -216,5 +216,19 @@
 }
 
 @media all and (max-width: 320px) {
-
+    #about>section:nth-child(1)>div{
+        width: 140px;
+    }
+    #about>section:nth-child(2)>div{
+        width: 218px;
+        top: 215px;
+        margin-left: 65px;
+    }
+    #about>section:nth-child(2)>div>p{
+        font-size: 17px;
+    }
+    #about>section:nth-child(2)>div>button{
+        margin-left: 16px;
+        top: 305px;
+    }
 }

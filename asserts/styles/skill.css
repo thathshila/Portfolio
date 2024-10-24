@@ -325,5 +325,10 @@
 }
 
 @media all and (max-width: 320px) {
-
+    #skill>section:first-child>div{
+        width: 105px;
+    }
+    #skill>section:nth-child(2)>div{
+        left: 25px;
+    }
 }
