@@ -1,6 +1,6 @@
 #gallery{
     width: 100vw;
-    height: 750px;
+    height: 770px;
     background: black;
     position: relative;
 }
@@ -207,7 +207,7 @@
 
 @media all and (max-width: 320px){
     #gallery{
-        height: 610px;
+        height: 630px;
     }
     #gallery > section:first-child > h2.g1 {
         font-size: 45px;

@@ -1,281 +1,185 @@
 #contact{
     width: 100vw;
-    height: 630px;
-    background: black;
-    /*background: black;*/
+    height: 570px;
+    background: white;
     position: relative;
 }
-#contact>section:first-child>h2.c1{
-    color: #00ffff;
-    position: absolute;
-    left:700px;
-    font-size: 70px;
-    margin-top: 70px;
-    font-family:"Kameron", serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
+#contact>section{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
 }
-#contact>section:first-child>h2.c2{
-    color: cyan;
-    position: absolute;
-    left: 750px;
-    font-size: 30px;
-    margin-top: 90px;
-    font-family:"Kameron", serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-}
-#contact>section:nth-child(1)>div{
-    width: 300px;
-    height: 5px;
-    position: absolute;
-    background-color: cyan;
-    left: 750px;
-    margin-top: 120px;
-}
-#contact>section:nth-child(1)>img {
-    width: 100vw;
-    height: 650px;
+#contact>section>section:first-child>img{
+    width: 700px;
+    height: 467px;
 }
 
-#contact>section:nth-child(2)>div{
-    position: absolute;
-    width: 900px;
-    height: 5px;
-    margin-left: 300px;
-   top: 170px;
+#contact>section>section:nth-child(2)>div>input{
+    background-color: #f2f6f8;
+    border-radius: 2rem;
+    border: none;
+    box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.11);
+    width: 400px;
+    height: 3.3rem;
+    padding: .5rem 3.5rem;
 }
-#contact>section:nth-child(2)>div>p{
-    color: #FFEE58;
-    font-size: 20px;
-
+#contact>section>section:nth-child(2)>div>h3{
     font-family: "Poppins", sans-serif;
     font-weight: 300;
     font-style: normal;
 }
-
-#contact>section:nth-child(3){
-    position: absolute;
-    top: 220px;
-    left: 300px;
+#contact>section>section:nth-child(2)>div>input::placeholder{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
 }
-#contact>section:nth-child(3)>div{
-    margin: 20px;
-    background: none;
+#contact>section>section:nth-child(2)>div>textarea::placeholder{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+#contact>section>section:nth-child(2)>div>textarea{
+    background-color: #f2f6f8;
+    border-radius: 2rem;
     border: none;
-    outline: none;
-    padding: 10px 20px;
-    /*font-size: 16px;*/
-    border-radius: 9999px;
-    box-shadow: inset 2px 5px 100px white;
-    color: black;
+    box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.11);
+    width: 400px;
+    height: 150px;
+    padding: .5rem 3.5rem;
+    resize: none;
+    overflow-y: auto;
 }
-#contact>section:nth-child(3)>div:nth-child(1){
-    width: 300px;
-}
-#contact>section:nth-child(3)>div:nth-child(2){
-    width: 300px;
-}
-#contact>section:nth-child(3)>div:nth-child(3){
-    width: 700px;
-}
-#contact>section:nth-child(3)>div:nth-child(4){
-    width: 700px;
-    height: 100px;
-}
-#contact>section:nth-child(3)>div:nth-child(1)>input{
-    width: 300px;
- }
-#contact>section:nth-child(3)>div:nth-child(2)>input{
-width: 300px;
-}
-#contact>section:nth-child(3)>div:nth-child(3)>input{
-    width: 700px;
-    height: 30px;
-}
-#contact>section:nth-child(3)>div:nth-child(4)>textarea{
-    height: 70px;
-    width: 680px;
-}
-#contact>section:nth-child(3)>div:nth-child(2){
+
+#contact>section>section:nth-child(2){
+    display: flow;
     position: absolute;
-    top: 0px;
-    left: 400px;
+    margin-top: -35px;
+    margin-left: 838px;
 }
-#contact>section:nth-child(3)>button{
-    padding: 12.5px 70px;
+#contact>section>section:nth-child(2)>button{
+    padding: 19.5px 80px;
     border: 0;
     border-radius: 100px;
-    background-color: #4781e3;
-    color: white;
+    background-color: #2ba8fb;
+    color: #ffffff;
     font-weight: Bold;
     position: absolute;
-    margin-left: 100px;
-    top: 350px;
-    left: 210px;
-    font-size: 13px;
+    margin-left: 157px;
+    top: 441px;
+    font-size: 18px;
 }
-#contact>section:nth-child(3)>button:hover {
+#contact>section>section:nth-child(2)>button:hover {
     background-color: #6fc5ff;
     box-shadow: 0 0 20px #6fc5ff50;
-    transform: scale(1.1);
+    transform: scale(0.9);
 }
-#contact>section:nth-child(3)>div:nth-child(1)>h4{
-    display: none;
-}
+#contact>h1{
+    font-size: 50px;
+    color: black;
+    margin-top: 15px;
+    margin-left: 30px;
 
-/*media query for laptop 1440px*/
-@media all and (max-width: 1440px){
-    #contact>section:nth-child(3)>div:nth-child(1)>h4{
-        display: none;
-    }
-    #contact>section:first-child>h2.c1{
-        margin-top: 20px;
-    }
-    #contact>section:first-child>h2.c2{
-        margin-top: 40px;
-    }
-    #contact>section:nth-child(1)>div{
-        margin-top: 72px;
-    }
-    #contact>section:nth-child(1)>img {
-        width: 1440px;
-        height: 650px;
-    }
-    #contact>section:nth-child(3){
-        top: 215px;
-        left: 365px;
-    }
-    #contact>section:nth-child(2)>div{
-        margin-left: 365px;
-        top: 155px;
-    }
 }
 
 @media all and (max-width: 1024px){
-    #contact>section:nth-child(3)>div:nth-child(1)>h4{
-        display: none;
+    #contact>section>section:first-child>img{
+        width: 575px;
+        height: 476px;
     }
-    #contact>section:first-child>h2.c1{
-        margin-top: 50px;
-        left: 300px;
+
+    #contact>section>section:nth-child(2){
+        margin-left: 535px;
     }
-    #contact>section:first-child>h2.c2{
-        margin-top: 70px;
-        left: 355px;
+    #contact>section>section:nth-child(2)>div>input{
+        width: 335px;
     }
-    #contact>section:nth-child(1)>div{
-        margin-top: 100px;
-        left: 350px;
+    #contact>section>section:nth-child(2)>button{
+        margin-left: 105px;
+        top: 430px;
     }
-    #contact>section:nth-child(1)>img {
-        width: 1024px;
-        height: 650px;
-    }
-    #contact>section:nth-child(3){
-        top: 215px;
-        left: 165px;
-    }
-    #contact>section:nth-child(2)>div{
-        margin-left: 130px;
-        top: 155px;
+    #contact>section>section:nth-child(2)>div>textarea{
+        width: 335px;
     }
 }
 
-/*media query for tablet*/
 @media all and (max-width: 768px){
-    #contact>section:nth-child(3)>div:nth-child(1)>h4{
-        display: none;
+    #contact>h1{
+        font-size: 40px;
+        margin-top: 5px;
     }
-    #contact>section:nth-child(1)>img {
-        width: 768px;
-        height: 650px;
+    #contact>section>section:nth-child(2){
+        margin-left: 370px;
     }
-    #contact>section:nth-child(3){
-        top: 215px;
-        left: -6px;
+    #contact>section>section:nth-child(2)>div>input{
+        width: 260px;
     }
-    #contact>section:nth-child(2)>div{
-        margin-left: 25px;
-        top: 155px;
+    #contact>section>section:nth-child(2)>button{
+        margin-left: 60px;
+        top: 430px;
     }
-    #contact>section:nth-child(2)>div>p{
-        font-size: 18px;
+    #contact>section>section:nth-child(2)>div>textarea{
+        width: 260px;
+    }
+    #contact>section>section:first-child>img{
+        width: 393px;
+        height: 443px;
     }
 }
 
 @media all and (max-width: 426px){
-    #contact>section:first-child>h2.c1{
-        left:135px;
-        font-size: 45px;
-        margin-top: 85px;
+    #contact>section{
+       display: flow;
     }
-    #contact>section:first-child>h2.c2{
-        left: 170px;
-        font-size: 30px;
-        margin-top: 90px;
+    #contact{
+        height: 1025px;
     }
-    #contact>section:nth-child(1)>div{
-        width: 200px;
-        height: 5px;
-        left: 171px;
-        margin-top: 120px;
+    #contact>section>section:first-child>img{
+        width: 450px;
+        height: 435px;
     }
-    #contact>section:nth-child(1)>img {
-        width: 415px;
-        height: 650px;
+    #contact>section>section:nth-child(2){
+        margin-top: 5px;
+        margin-left: 37px;
     }
-    #contact>section:nth-child(3){
-        top: 215px;
-        left: -6px;
-    }
-    #contact>section:nth-child(2)>div{
-        margin-left: 55px;
-        top: 155px;
-        width: 340px;
-    }
-    #contact>section:nth-child(2)>div>p{
-        font-size: 18px;
-    }
-    #contact>section:nth-child(3)>div:nth-child(1){
-        width: 320px;
-    }
-    #contact>section:nth-child(3)>div:nth-child(1)>h3{
-        display: none;
-    }
-    #contact>section:nth-child(3)>div:nth-child(1)>h4{
-        display: inline;
-    }
-    #contact>section:nth-child(3)>div:nth-child(2){
-        display: none;
-    }
-    #contact>section:nth-child(3)>div:nth-child(3){
-        width: 320px;
-    }
-    #contact>section:nth-child(3)>div:nth-child(4){
-        width: 320px;
-        height: 100px;
-    }
-    #contact>section:nth-child(3)>div:nth-child(3)>input{
-        width: 300px;
-        height: 30px;
-    }
-    #contact>section:nth-child(3)>div:nth-child(4)>textarea{
-        height: 70px;
-        width: 300px;
-    }
-    #contact>section:nth-child(3)>button{
-        top: 350px;
-        left: 0px;
+    #contact>section>section:nth-child(2)>button{
+        margin-left: 60px;
+        top: 430px;
     }
 }
 
 @media all and (max-width: 376px){
+    #contact>section>section:first-child>img{
+        width: 408px;
+        height: 425px;
+    }
 
+    #contact>section>section:nth-child(2)>button{
+        margin-left: 33px;
+        top: 430px;
+    }
+    #contact>section>section:nth-child(2)>div>input{
+        width: 200px;
+    }
+    #contact>section>section:nth-child(2)>div>textarea{
+        width: 200px;
+    }
 }
 
 @media all and (max-width: 320px){
+    #contact>section>section:first-child>img{
+        width: 355px;
+        height: 408px;
+    }
 
+    #contact>section>section:nth-child(2)>button{
+        margin-left: 14px;
+        top: 430px;
+        padding: 18.5px 80px;
+        font-size: 15px;
+    }
+    #contact>section>section:nth-child(2)>div>input{
+        width: 150px;
+    }
+    #contact>section>section:nth-child(2)>div>textarea{
+        width: 150px;
+    }
 }

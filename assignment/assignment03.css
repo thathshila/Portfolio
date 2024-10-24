@@ -1,14 +1,14 @@
 @media all and (max-width: 1440px){
-    body{
+    main{
         width: 1440px;
     }
 }
 @media all and (max-width: 1024px) {
-    body{
+    main{
         width: 1024px;
     }
-    div {
-        width: 160px;
+    main>section>div{
+        padding: 13.5px 60px;
     }
 
     .run {
