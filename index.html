@@ -23,7 +23,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&family=Tilt+Prism&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Island+Moments&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 <!--contact p-->
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 <!--about-->
@@ -54,6 +54,7 @@
 <body>
 <!--header section-->
 <header>
+    <i class="fas fa-bars hamburger" id="hamburger"></i>
     <!--logo section-->
     <section>
         <img src="asserts/images/my-logo.png" title="logo" alt="logo">
@@ -69,6 +70,7 @@
             <li><a href="index.html#education">Education</a></li>
             <li><a href="index.html#gallery">Gallery</a></li>
             <li><a href="index.html#contact">Contact</a></li>
+            <i class='bx bxs-moon' id="icon"></i>
         </ul>
     </nav>
 </header>
@@ -99,7 +101,7 @@
     <div>
         <img src="asserts/images/icons8-facebook-100.png" title="facebook" alt="facebook">
     </div>
-      <img src="asserts/images/apple-mouse-artificial-flowers-blurred-background-close-up.jpg">
+      <img src="asserts/images/welcome%20background.jpg">
   </section>
 
 </main>
@@ -408,6 +410,11 @@
 
 <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 <script src="asserts/script.js"></script>
+<script>
+   document.getElementById("hamburger").addEventListener("click",function (){
+       document.querySelector("header>nav>ul"). classList.toggle("active");
+   });
+</script>
 </body>
 </html>
 
